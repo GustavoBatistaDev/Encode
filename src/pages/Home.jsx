@@ -56,7 +56,7 @@ export const Home = () => {
                                     </div>
                                     <a
                                         className="ml-auto"
-                                        href="https://web.whatsapp.com/send?phone=5573982021289"
+                                        href="https://web.whatsapp.com/send?phone=5573981933667"
                                         target="_blank" rel="noreferrer"
                                     >
                                         <button className="btn-header">Fale Conosco</button>
