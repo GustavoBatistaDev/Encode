@@ -3,7 +3,6 @@ import logo2 from '../assets/Logotipo 2.png';
 import monitor from '../assets/monitorNovo.png';
 import portifolio from '../assets/5adc69c317a82e88002b217727f36257.jpg';
 import { useInView } from 'react-intersection-observer';
-import { useState } from 'react';
 
 import './Style.css';
 
@@ -47,7 +46,7 @@ export const Home = () => {
                                         <a href="#">
                                             <i className="fa-brands fa-instagram" />
                                         </a>
-                                        <a href="#">
+                                        <a  href="https://web.whatsapp.com/send?phone=5573981933667">
                                             <i className="fa-brands fa-whatsapp" />
                                         </a>
                                         <a href="#">
@@ -78,7 +77,7 @@ export const Home = () => {
                                     Desenvolvemos sites cativantes para elevar a sua marca ao próximo
                                     nível.
                                 </p>
-                                <a href="index.html">
+                                <a href="https://web.whatsapp.com/send?phone=5573981933667">
                                     <button className="btn-header2">SOLICITAR ORÇAMENTO</button>
                                 </a>
                             </div>
@@ -158,7 +157,7 @@ export const Home = () => {
                                             personalizamos o site para que ele reflita perfeitamente a sua
                                             identidade e estilo.
                                         </p>
-                                        <a href="index.html">
+                                        <a  href="https://web.whatsapp.com/send?phone=5573981933667">
                                             <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
                                         </a>
                                     </div>
