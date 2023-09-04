@@ -12,7 +12,9 @@ body {
     overflow-x: hidden;
 }
 
-
+button, a{
+    cursor: pointer !important;
+}
 
 header {
     background-color: #171717;
@@ -135,6 +137,7 @@ header {
 }
 
 .btn-header2 {
+    cursor: pointer !important;
     text-decoration: none;
     position: relative;
     border: none;
@@ -585,7 +588,7 @@ input:focus {
 
     #sd {
         clear: both;
-        border: 1px solid red !important;
+       
     }
 }
 

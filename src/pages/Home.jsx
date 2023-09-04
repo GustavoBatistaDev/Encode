@@ -53,10 +53,10 @@ export const Home = () => {
                                             <i className="fa-brands fa-behance" />
                                         </a>
                                     </div>
-                                    <a
+                                    <a  
+                                        target="_blank"
                                         className="ml-auto"
-                                        href="https://web.whatsapp.com/send?phone=5573981933667"
-                                        target="_blank" rel="noreferrer"
+                                        href="https://web.whatsapp.com/send?phone=5573981933667" rel="noreferrer"
                                     >
                                         <button className="btn-header">Fale Conosco</button>
                                     </a>
@@ -77,10 +77,11 @@ export const Home = () => {
                                     Desenvolvemos sites cativantes para elevar a sua marca ao próximo
                                     nível.
                                 </p>
-                                <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                    <button className="btn-header2">SOLICITAR ORÇAMENTO</button>
-                                </a>
+                               
+                                <a href="https://web.whatsapp.com/send?phone=5573981933667" ><button className="btn-header2">SOLICITAR ORÇAMENTO</button></a>
+
                             </div>
+                            
                             <div ref={ref3} className={`header-img col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
                                 <img src={monitor} />
                             </div>
@@ -151,13 +152,13 @@ export const Home = () => {
                                     <h1 className="method text-center"> Nossa Metodologia</h1>
                                     <div className="box-tec text-center">
                                         <h1 className="work">Como trabalhamos?</h1>
-                                        <p>
+                                        <p> 
                                             Primeiro desenvolvemos a sua identidade visual e, com base nela,
                                             criamos a sua interface de usuário (UI). Em seguida,
                                             personalizamos o site para que ele reflita perfeitamente a sua
                                             identidade e estilo.
                                         </p>
-                                        <a  href="https://web.whatsapp.com/send?phone=5573981933667">
+                                        <a  href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
                                             <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
                                         </a>
                                     </div>
