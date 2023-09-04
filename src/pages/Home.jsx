@@ -149,8 +149,8 @@ export const Home = () => {
                             </div>
                             <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
                                 <div className="col-md-6">
-                                    <h1 className="method text-center"> Nossa Metodologia</h1>
-                                    <div className="box-tec text-center">
+                                    <h1 className="method text-left"> Nossa Metodologia</h1>
+                                    <div className="box-tec text-left">
                                         <h1 className="work">Como trabalhamos?</h1>
                                         <p> 
                                             Primeiro desenvolvemos a sua identidade visual e, com base nela,
