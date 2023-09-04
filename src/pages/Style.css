@@ -13,7 +13,7 @@ body {
 }
 
 button,
-a {
+a, input[type='submit'] {
     cursor: pointer !important;
 }
 

@@ -66,9 +66,9 @@ export const Home = () => {
                     </nav>
                     {/* Links nav */}
                     {/* Seção header */}
-                    <div className="container">
+                    <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                         <div className="row">
-                            <div ref={ref} className={`texto-header col-md-6  fade-in ${inView ? 'show' : ''}`} >
+                            <div className="texto-header col-md-6"  >
                                 <h1 className="font-weight-bold">
                                     Inovação Digital e Design de Alto Impacto.
                                 </h1>
@@ -78,7 +78,9 @@ export const Home = () => {
                                     nível.
                                 </p>
                                
-                                <a href="https://web.whatsapp.com/send?phone=5573981933667" ><button className="btn-header2">SOLICITAR ORÇAMENTO</button></a>
+                                <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
+                                        </a>
 
                             </div>
                             
