@@ -19,7 +19,7 @@ export const Home = () => {
     const [ref9, inView9] = useInView();
     const [ref10, inView10] = useInView();
     const [ref11, inView11] = useInView();
-    
+
 
 
     return (
@@ -254,6 +254,9 @@ export const Home = () => {
                                                 &nbsp;Ideal para autônomos/empresas;
                                             </li>
                                         </ul>
+                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-footer-service">QUERO MEU SITE</button>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -290,6 +293,9 @@ export const Home = () => {
                                             </li>
 
                                         </ul>
+                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-footer-service">QUERO MEU SITE</button>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -333,6 +339,9 @@ export const Home = () => {
                                             </li>
 
                                         </ul>
+                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-footer-service">QUERO MEU SITE</button>
+                                        </a>
                                     </div>
                                 </div>
 
