@@ -165,6 +165,7 @@ ul{
 }
 
 .btn-header2 {
+   
     cursor: pointer !important;
     text-decoration: none;
     position: relative;
@@ -678,6 +679,13 @@ input:focus {
     #sd {
         clear: both;
     }
+
+    .rocket{
+        height: 200px;
+    }
+    p, h1,h2,h3,h4,h5,h6, a{
+        text-align: center !important;
+    }
 }
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
@@ -770,6 +778,8 @@ input:focus {
     .btn-header {
         display: none;
     }
+
+    
 }
 
 /* // Dispositivos médios (tablets com menos de 992px) */
@@ -821,6 +831,12 @@ input:focus {
 
     .work {
         font-size: 20px;
+    }
+
+    .rocket{
+
+        padding: 10px;
+        height: 220px;
     }
 }
 

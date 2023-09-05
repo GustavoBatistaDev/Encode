@@ -176,9 +176,9 @@ export const Home = () => {
                     <div className="container">
                         <div>
 
-                            <div style={{border: '1px solid red'}} ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
+                            <div  ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
                                 <div className="col-md-6">
-                                    <h1 style={{ fontSize: '50px' }} className="text-white text-left">Como <span className='method'>Nós</span> fazemos?</h1>
+                                    <h1 style={{ fontSize: '50px' }} className="text-white ">Como <span className='method'>Nós</span> fazemos?</h1>
                                     <div className="box-tec text-left">
 
                                         <p >
@@ -187,20 +187,20 @@ export const Home = () => {
                                             personalizamos o site para que ele reflita perfeitamente a sua
                                             identidade e estilo. Um site moderno e otumizado é essencial para as empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência de usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
                                         </p>
-                                        <a href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
-                                            <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
+                                        <a  href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
+                                            <button  className="btn-header2">VER TODOS OS SERVIÇOS</button>
                                         </a>
                                     </div>
                                 </div>
                         
-                                <div style={{border: '1px solid red'}} className="col-md-6 d-block ">
+                                <div  className="my-5 col-md-6 d-block ">
                                     <div  className="container-images d-flex ">
-                                        <img className='mx-auto' src={rocket} alt="" />
-                                        <img className='mx-auto' src={rocket} alt="" />
+                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
+                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
                                     </div>
                                     <div  className="container-images d-flex ">
-                                        <img className='mx-auto' src={rocket} alt="" />
-                                        <img className='mx-auto' src={rocket} alt="" />
+                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
+                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
                                     </div>
                                     
                                 </div>
