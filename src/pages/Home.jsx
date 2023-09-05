@@ -164,7 +164,7 @@ export const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="container-images d-flex">
+                                    <div className="container-images">
                                         <img className='mx-2' src={rocket} alt="" />
                                         <img className='mx-2' src={rocket} alt="" />
                                     </div>
@@ -178,7 +178,10 @@ export const Home = () => {
                     </div>
                 </section>
 
-
+                <section className='section1'>
+                <h1 style={{ fontSize: '50px' }} className="text-white text-center">Conheça os nossos <span className='method'>Serviços</span></h1>
+                <h3 className='text-center text-white'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
+                </section>
 
                 <section className="section1">
                     
