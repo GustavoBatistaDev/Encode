@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+p{
+  letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
 
 /*effects*/
 .fade-in {
