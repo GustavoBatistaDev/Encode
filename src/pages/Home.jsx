@@ -141,8 +141,34 @@ export const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
                 {/* carosell */}
+                <section className='section1'>
+                <div className="container">
+                        <div className={` text-center `}>
+                            <p className="p-section1">
+                                <span className="section1-nome">ENCODE</span>
+                                <br />
+                                Transforme visitantes em clientes, e <span
+                                    style={{
+                                        background:
+                                            "linear-gradient(to right ,#FF7DB2 ,#3D40F4, #03a9f4)",
+                                        backgroundClip: "text",
+                                        WebkitBackgroundClip: "text",
+                                        color: "black",
+                                        WebkitTextFillColor: "transparent",
+                                        fontSize: "1.2em",
+                                        fontWeight: 600
+                                    }}
+                                >
+                                    Cliques
+                                </span> em lucros.{" "}
+                                
+                                
+                            </p>
+                        </div>
+                    </div>
+                </section>
                 <section className="section1">
                     <div className="container">
                         <div>
@@ -191,7 +217,7 @@ export const Home = () => {
                             <div className="card-service ">
                                 <div className="container-header">
                                     <h2>Site</h2>
-                                    <h1 className='services-title'>Institucional</h1>
+                                    <h1 style={{fontWeight: 'bold'}} className='services-title'>Institucional</h1>
                                 </div>
                                 <div className="services-content">
                                     <ul>
@@ -234,7 +260,7 @@ export const Home = () => {
                         <div className="card-service">
                                 <div className="container-header">
                                     <h2>Site</h2>
-                                    <h1 className='services-title'>Vendas</h1>
+                                    <h1 style={{fontWeight: 'bold'}}  className='services-title'>Vendas</h1>
                                 </div>
                                 <div className="services-content">
                                     <ul>
@@ -269,7 +295,7 @@ export const Home = () => {
                         <div className="card-service">
                                 <div className="container-header">
                                     <h2>Site</h2>
-                                    <h1 className='services-title'>Landing Pages</h1>
+                                    <h1 style={{fontWeight: 'bold'}}  className='services-title'>Landing Pages</h1>
                                 </div>
                                 <div className="services-content">
                                     <ul>
