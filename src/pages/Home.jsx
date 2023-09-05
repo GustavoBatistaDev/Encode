@@ -176,7 +176,7 @@ export const Home = () => {
                     <div className="container">
                         <div>
 
-                            <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
+                            <div style={{border: '1px solid red'}} ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
                                 <div className="col-md-6">
                                     <h1 style={{ fontSize: '50px' }} className="text-white text-left">Como <span className='method'>Nós</span> fazemos?</h1>
                                     <div className="box-tec text-left">
@@ -192,16 +192,19 @@ export const Home = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="col-md-6">
-                                    <div className="container-images">
-                                        <img className='mx-2' src={rocket} alt="" />
-                                        <img className='mx-2' src={rocket} alt="" />
+                        
+                                <div style={{border: '1px solid red'}} className="col-md-6 d-block ">
+                                    <div  className="container-images d-flex ">
+                                        <img className='mx-auto' src={rocket} alt="" />
+                                        <img className='mx-auto' src={rocket} alt="" />
                                     </div>
-                                    <div className="container-images d-flex">
-                                        <img className='mx-2' src={rocket} alt="" />
-                                        <img className='mx-2' src={rocket} alt="" />
+                                    <div  className="container-images d-flex ">
+                                        <img className='mx-auto' src={rocket} alt="" />
+                                        <img className='mx-auto' src={rocket} alt="" />
                                     </div>
+                                    
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -298,7 +301,6 @@ export const Home = () => {
                                         </a>
                                     </div>
                                 </div>
-
                             </div>
                             <div className="">
                                 <div className="card-service">
