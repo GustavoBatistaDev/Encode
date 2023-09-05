@@ -17,6 +17,9 @@ export const Home = () => {
     const [ref6, inView6] = useInView();
     const [ref8, inView8] = useInView();
     const [ref9, inView9] = useInView();
+    const [ref10, inView10] = useInView();
+    const [ref11, inView11] = useInView();
+    
 
 
     return (
@@ -141,10 +144,10 @@ export const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div> 
-                {/* carosell */}
-                <section className='section1'>
-                <div className="container">
+                </div>
+                {/* carosell  */}
+                <section ref={ref4} className={`section1 fade-in ${inView4 ? 'show' : ''}`}>
+                    <div className="container">
                         <div className={` text-center `}>
                             <p className="p-section1">
                                 <span className="section1-nome">ENCODE</span>
@@ -163,8 +166,8 @@ export const Home = () => {
                                 >
                                     Cliques
                                 </span> em lucros.{" "}
-                                
-                                
+
+
                             </p>
                         </div>
                     </div>
@@ -204,137 +207,137 @@ export const Home = () => {
                     </div>
                 </section>
 
-                <section className='section1'>
-                <h1 style={{ fontSize: '50px' }} className="text-white text-center">Conheça os nossos <span className='method'>Serviços</span></h1>
-                <h3 className='text-center text-white'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
+                <section ref={ref10} className={`section1 fade-in ${inView10 ? 'show' : ''}`}>
+                    <h1 style={{ fontSize: '50px' }} className="text-white text-center">Conheça os nossos <span className='method'>Serviços</span></h1>
+                    <h3 className='text-center text-white'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
                 </section>
 
-                <section className="section1">
-                    
-                    <div className="container-fluid">
-                    <div className="row justify-content-center">
-                        <div className="">
-                            <div className="card-service ">
-                                <div className="container-header">
-                                    <h2>Site</h2>
-                                    <h1 style={{fontWeight: 'bold'}} className='services-title'>Institucional</h1>
-                                </div>
-                                <div className="services-content">
-                                    <ul>
-                                        
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Responsivo - Celular, PC & Tablet;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Com até 5 páginas;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Tenha seu blog;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Ofereça seus serviços;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Capte clientes 24h por dia;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Criação de email comercial;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Ideal para autônomos/empresas;
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
+                <section ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
 
-                        </div>
-                        <div className="">
-                        <div className="card-service">
-                                <div className="container-header">
-                                    <h2>Site</h2>
-                                    <h1 style={{fontWeight: 'bold'}}  className='services-title'>Vendas</h1>
+                    <div className="container-fluid">
+                        <div className="row justify-content-center">
+                            <div className="">
+                                <div className="card-service ">
+                                    <div className="container-header">
+                                        <h2>Site</h2>
+                                        <h1 style={{ fontWeight: 'bold' }} className='services-title'>Institucional</h1>
+                                    </div>
+                                    <div className="services-content">
+                                        <ul>
+
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Responsivo - Celular, PC & Tablet;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Com até 5 páginas;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Tenha seu blog;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Ofereça seus serviços;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Capte clientes 24h por dia;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Criação de email comercial;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Ideal para autônomos/empresas;
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div className="services-content">
-                                    <ul>
-                                        
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Responsivo - Celular, PC & Tablet;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Carregamento rápido;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Copywriting profissional;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Design moderno & criativo;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Integração c/ ferramentas de  &nbsp;  &nbsp;marketing;
-                                        </li>
-                                       
-                                    </ul>
-                                </div>
+
+
                             </div>
-                            
-                        </div>
-                        <div className="">
-                        <div className="card-service">
-                                <div className="container-header">
-                                    <h2>Site</h2>
-                                    <h1 style={{fontWeight: 'bold'}}  className='services-title'>Landing Pages</h1>
+                            <div className="">
+                                <div className="card-service">
+                                    <div className="container-header">
+                                        <h2>Site</h2>
+                                        <h1 style={{ fontWeight: 'bold' }} className='services-title'>Vendas</h1>
+                                    </div>
+                                    <div className="services-content">
+                                        <ul>
+
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Responsivo - Celular, PC & Tablet;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Carregamento rápido;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Copywriting profissional;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Design moderno & criativo;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Integração c/ ferramentas de  &nbsp;  &nbsp;marketing;
+                                            </li>
+
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div className="services-content">
-                                    <ul>
-                                        
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Responsivo - Celular, PC & Tablet;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Integração com WhatsApp;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Aumente as vendas com Up-sells;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp; Down-sells e Cross-sells;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Criação de e-mail comercial;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Criação de email comercial;
-                                        </li>
-                                        <li className='my-3 text-left'>
-                                            <img src={arrow} alt="" />
-                                            &nbsp;Carregamento rápido;
-                                        </li>
-                                       
-                                    </ul>
-                                </div>
+
                             </div>
-                            
+                            <div className="">
+                                <div className="card-service">
+                                    <div className="container-header">
+                                        <h2>Site</h2>
+                                        <h1 style={{ fontWeight: 'bold' }} className='services-title'>Landing Pages</h1>
+                                    </div>
+                                    <div className="services-content">
+                                        <ul>
+
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Responsivo - Celular, PC & Tablet;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Integração com WhatsApp;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Aumente as vendas com Up-sells;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp; Down-sells e Cross-sells;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Criação de e-mail comercial;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Criação de email comercial;
+                                            </li>
+                                            <li className='my-3 text-left'>
+                                                <img src={arrow} alt="" />
+                                                &nbsp;Carregamento rápido;
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </section>
 
