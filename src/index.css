@@ -1,16 +1,50 @@
-*{
-  margin: 0;
+/*Configurações gerais*/
+
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-p{
+body {
+
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-color: #171717;
+  overflow-x: hidden;
+  background-position: center -200px;
+}
+
+
+button,
+a,
+input[type='submit'] {
+  cursor: pointer !important;
+}
+
+header {
+  background-color: #171717;
+  color: #fff;
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+p {
   letter-spacing: 1px;
 }
 
 ::-webkit-scrollbar {
   width: 0px;
 }
+
+/* /Configurações gerais*/
+
 
 /*effects*/
 .fade-in {
@@ -24,4 +58,22 @@ p{
   opacity: 1;
   transform: translateY(0);
 }
+
+.effect {
+  height: 100vh; /* Altura de 100vh */
+  background: linear-gradient(to right, transparent, rgb(40, 42, 160)); /* Gradiente da direita para a esquerda com opacidade */
+}
+
 /*effects*/
+
+
+.gradient {
+  background: linear-gradient(to right, #FF7DB2, #3D40F4, #03a9f4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.2em;
+  font-weight: 600;
+
+}

@@ -1,8 +1,15 @@
 import logo from '../assets/Logotipo icon 1.png';
 import logo2 from '../assets/Logotipo 2.png';
-import rocket from '../assets/rocket.svg';
+
+
+
+import ux from '../assets/Baseessa.png';
+
+
 import arrow from '../assets/arrow.svg';
-import monitor from '../assets/monitorNovo.png';
+import monitor from '../assets/image 1main.svg';
+import boy from '../assets/Groupboy.svg';
+
 import portifolio from '../assets/5adc69c317a82e88002b217727f36257.jpg';
 import { useInView } from 'react-intersection-observer';
 
@@ -20,12 +27,10 @@ export const Home = () => {
     const [ref10, inView10] = useInView();
     const [ref11, inView11] = useInView();
 
-
-
     return (
         <>
             <>
-                <header className="cabecalho mt-2">
+                <header className="cabecalho effect">
                     <nav className="navbar navbar-expand-md">
                         <div className="container">
                             <a className="navbar-brand" href="index.html">
@@ -71,30 +76,32 @@ export const Home = () => {
                     </nav>
                     {/* Links nav */}
                     {/* Seção header */}
-                    <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
-                        <div className="row">
-                            <div className="texto-header col-md-6"  >
-                                <h1 className="font-weight-bold">
-                                    Inovação Digital e Design de Alto Impacto.
-                                </h1>
-                                <p>
-                                    Transforme suas ideias em uma poderosa presença online com a Encode.
-                                    Desenvolvemos sites cativantes para elevar a sua marca ao próximo
-                                    nível.
-                                </p>
+                   <div  className="section">
+                   <div className='mt-5'>
+                        <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
+                            <div className="row">
+                                <div className="texto-header col-md-6"  >
+                                    <h1 className="font-weight-bold">
+                                        Transforme sua presença online em um sucesso!
+                                    </h1>
+                                    <p>
+                                        tenha um site responsivo, com design moderno e amplie sua clientela na internet!
+                                    </p>
 
-                                <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                    <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
-                                </a>
+                                    <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                        <button className="btn-header2">SAIBA MAIS</button>
+                                    </a>
 
+                                </div>
+
+                                <div ref={ref3} className={`header-img col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
+                                    <img className='main-image' src={monitor} />
+                                </div>
                             </div>
 
-                            <div ref={ref3} className={`header-img col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
-                                <img src={monitor} />
-                            </div>
                         </div>
-
                     </div>
+                   </div>
                     <div className="fixed-network">
                         <a href="#" className='d-block text-white' target="_blank">
                             <i className="fa-brands fa-linkedin-in" />
@@ -111,7 +118,7 @@ export const Home = () => {
                     </div>
                 </header>
                 {/* carrosel */}
-                <div className="carrosel">
+                <div style={{marginTop: '-400px'}} className="carrosel">
                     <div
                         id="carouselExampleSlidesOnly"
                         className="carousel slide text-center"
@@ -146,207 +153,116 @@ export const Home = () => {
                     </div>
                 </div>
                 {/* carosell  */}
-                <section ref={ref4} className={`section1 fade-in ${inView4 ? 'show' : ''}`}>
-                    <div className="container">
-                        <div className={` text-center `}>
-                            <p className="p-section1">
-                                <span className="section1-nome">ENCODE</span>
-                                <br />
-                                Transforme visitantes em clientes, e <span
-                                    style={{
-                                        background:
-                                            "linear-gradient(to right ,#FF7DB2 ,#3D40F4, #03a9f4)",
-                                        backgroundClip: "text",
-                                        WebkitBackgroundClip: "text",
-                                        color: "black",
-                                        WebkitTextFillColor: "transparent",
-                                        fontSize: "1.2em",
-                                        fontWeight: 600
-                                    }}
-                                >
-                                    Cliques
-                                </span> em lucros.{" "}
 
 
-                            </p>
+
+
+
+
+
+
+                <section className='section' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                    <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
+                        <div className="container">
+                            <div className={` text-center `}>
+                                <p className="p-section1">
+                                    <span className="section1-nome">ENCODE</span>
+                                    <br />
+                                    Transforme visitantes em clientes, e
+                                    <span className='gradient'>
+                                        Cliques
+                                    </span> em lucros.{" "}
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </section>
+                    <section className="">
+                        <div className="container">
+                            <div>
+                                <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
+                                    <div className="col-md-6">
+                                        <h1 className="text-white title-2">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
+                                        <div className="box-tec text-left">
+
+                                            <p className='mb-5 w-75' >
+                                                Um site moderno e otimizado é essencial para empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência do usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
+                                            </p>
+                                            <a href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
+                                                <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6 d-block ">
+                                        <div style={{ position: 'absolute', right: '0' }} className="container-images d-flex ">
+                                            <div className="">
+                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                            </div>
+                                            <div className="">
+                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                            </div>
+                                        </div>
+                                        <div style={{ position: 'absolute', right: '0', top: '265px' }} className="container-images d-flex ">
+                                            <div className="">
+                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                            </div>
+                                            <div className="">
+                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
                 </section>
-                <section className="section1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section className='section effect' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                     <div className="container">
                         <div>
-
-                            <div  ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
+                            <div className={`row d-flex justify-content-center `} >
                                 <div className="col-md-6">
-                                    <h1 style={{ fontSize: '50px' }} className="text-white ">Como <span className='method'>Nós</span> fazemos?</h1>
+                                    <h2 className='text-white'>Sobre Nós</h2>
                                     <div className="box-tec text-left">
 
-                                        <p >
-                                            Primeiro desenvolvemos a sua identidade visual e, com base nela,
-                                            criamos a sua interface de usuário (UI). Em seguida,
-                                            personalizamos o site para que ele reflita perfeitamente a sua
-                                            identidade e estilo. Um site moderno e otumizado é essencial para as empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência de usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
-                                        </p>
-                                        <a  href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
-                                            <button  className="btn-header2">VER TODOS OS SERVIÇOS</button>
+                                        <h1 className='mb-5 w-75' >
+                                            Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
+                                        </h1>
+                                        <p className='w-75'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
+                                        <a href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
+                                            <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
                                         </a>
                                     </div>
                                 </div>
-                        
-                                <div  className="my-5 col-md-6 d-block ">
-                                    <div  className="container-images d-flex ">
-                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
-                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
+                                <div className="my-5 col-md-6 d-block ">
+
+                                    <div style={{ position: 'absolute', right: '1px', top: '-70px' }} className="container-image-2">
+                                        <img height="600" src={boy} />
                                     </div>
-                                    <div  className="container-images d-flex ">
-                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
-                                        <img className='mx-auto img-fluid rocket' src={rocket} alt="" />
-                                    </div>
-                                    
+
                                 </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section ref={ref10} className={`section1 fade-in ${inView10 ? 'show' : ''}`}>
-                    <h1 style={{ fontSize: '50px' }} className="text-white text-center">Conheça os nossos <span className='method'>Serviços</span></h1>
-                    <h3 className='text-center text-white'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
-                </section>
-
-                <section ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
-
-                    <div className="container-fluid">
-                        <div className="row justify-content-center">
-                            <div className="">
-                                <div className="card-service ">
-                                    <div className="container-header">
-                                        <h2>Site</h2>
-                                        <h1 style={{ fontWeight: 'bold' }} className='services-title'>Institucional</h1>
-                                    </div>
-                                    <div className="services-content">
-                                        <ul>
-
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Responsivo - Celular, PC & Tablet;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Com até 5 páginas;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Tenha seu blog;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Ofereça seus serviços;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Capte clientes 24h por dia;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Criação de email comercial;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Ideal para autônomos/empresas;
-                                            </li>
-                                        </ul>
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button className="btn-footer-service">QUERO MEU SITE</button>
-                                        </a>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <div className="">
-                                <div className="card-service">
-                                    <div className="container-header">
-                                        <h2>Site</h2>
-                                        <h1 style={{ fontWeight: 'bold' }} className='services-title'>Vendas</h1>
-                                    </div>
-                                    <div className="services-content">
-                                        <ul>
-
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Responsivo - Celular, PC & Tablet;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Carregamento rápido;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Copywriting profissional;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Design moderno & criativo;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Integração c/ ferramentas de  &nbsp;  &nbsp;marketing;
-                                            </li>
-
-                                        </ul>
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button className="btn-footer-service">QUERO MEU SITE</button>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="">
-                                <div className="card-service">
-                                    <div className="container-header">
-                                        <h2>Site</h2>
-                                        <h1 style={{ fontWeight: 'bold' }} className='services-title'>Landing Pages</h1>
-                                    </div>
-                                    <div className="services-content">
-                                        <ul>
-
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Responsivo - Celular, PC & Tablet;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Integração com WhatsApp;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Aumente as vendas com Up-sells;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp; Down-sells e Cross-sells;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Criação de e-mail comercial;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Criação de email comercial;
-                                            </li>
-                                            <li className='my-3 text-left'>
-                                                <img src={arrow} alt="" />
-                                                &nbsp;Carregamento rápido;
-                                            </li>
-
-                                        </ul>
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button className="btn-footer-service">QUERO MEU SITE</button>
-                                        </a>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -367,219 +283,172 @@ export const Home = () => {
 
 
 
+                <section className="section" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
 
-                <section className="section2">
+                    <section ref={ref10} className={`section1 fade-in ${inView10 ? 'show' : ''}`}>
+                        <h1 style={{ fontSize: '50px' }} className="text-white text-center">Conheça os nossos <span className='method'>Serviços</span></h1>
+                        <h3 className='text-center text-white'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
+                    </section>
+                    <section ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
+                        <div className="container-fluid">
+                            <div className="row justify-content-center">
+                                <div className="">
+                                    <div className="card-service ">
+                                        <div className="container-header">
+                                            <h2>Site</h2>
+                                            <h1 style={{ fontWeight: 'bold' }} className='services-title'>Institucional</h1>
+                                        </div>
+                                        <div className="services-content">
+                                            <ul>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Responsivo - Celular, PC & Tablet;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Com até 5 páginas;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Tenha seu blog;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Ofereça seus serviços;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Capte clientes 24h por dia;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Criação de email comercial;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Ideal para autônomos/empresas;
+                                                </li>
+                                            </ul>
+                                            <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                                <button className="btn-footer-service">QUERO MEU SITE</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="">
+                                    <div className="card-service">
+                                        <div className="container-header">
+                                            <h2>Site</h2>
+                                            <h1 style={{ fontWeight: 'bold' }} className='services-title'>Vendas</h1>
+                                        </div>
+                                        <div className="services-content">
+                                            <ul>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Responsivo - Celular, PC & Tablet;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Carregamento rápido;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Copywriting profissional;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Design moderno & criativo;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Integração c/ ferramentas de  &nbsp;  &nbsp;marketing;
+                                                </li>
+                                            </ul>
+                                            <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                                <button className="btn-footer-service">QUERO MEU SITE</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="">
+                                    <div className="card-service">
+                                        <div className="container-header">
+                                            <h2>Site</h2>
+                                            <h1 style={{ fontWeight: 'bold' }} className='services-title'>Landing Pages</h1>
+                                        </div>
+                                        <div className="services-content">
+                                            <ul>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Responsivo - Celular, PC & Tablet;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Integração com WhatsApp;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Aumente as vendas com Up-sells;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp; Down-sells e Cross-sells;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Criação de e-mail comercial;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Criação de email comercial;
+                                                </li>
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    &nbsp;Carregamento rápido;
+                                                </li>
+                                            </ul>
+                                            <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                                <button className="btn-footer-service">QUERO MEU SITE</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section >
                     <div className="container">
                         <div ref={ref6} className={` text-center fade-in ${inView6 ? 'show' : ''}`}>
                             <p className="p-section1">
-                                <span className="section1-nome">CASES</span>
+                                <h1 style={{ fontSize: '52px' }} className="section1-nome">Nosso <span className='method'>Portfólio</span></h1>
                                 <br />
-                                Confira abaixo alguns dos projetos já{" "}
-                                <span
-                                    style={{
-                                        background:
-                                            "linear-gradient(to right ,#FF7DB2 ,#3D40F4, #03a9f4)",
-                                        backgroundClip: "text",
-                                        WebkitBackgroundClip: "text",
-                                        color: "black",
-                                        WebkitTextFillColor: "transparent",
-                                        fontSize: "1.2em",
-                                        fontWeight: 600
-                                    }}
-                                >
-                                    entregues
-                                </span>{" "}
-                                pela ENCODE
+                                A categoria de portfólio é uma seção dedicada a apresentar os trabalhos que realizamos para empresas parceiras. Aproveite para explorar nossos projetos
+                                realizados e faça parte dessa história!
                             </p>
                         </div>
                     </div>
-                    {/* Carrosel web */}
-                    <div
-                        ref={ref8} className={`carousel slide fade-in ${inView8 ? 'show' : ''}`}
-                        id="carouselExampleControls"
 
-                        data-ride="carousel"
-                    >
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src={portifolio}
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <a
-                            className="carousel-control-prev"
-                            href="#carouselExampleControls"
-                            role="button"
-                            data-slide="prev"
-                        >
-                            <span className="carousel-control-prev-icon" aria-hidden="true" />
-                            <span className="sr-only">Anterior</span>
-                        </a>
-                        <a
-                            className="carousel-control-next"
-                            href="#carouselExampleControls"
-                            role="button"
-                            data-slide="next"
-                        >
-                            <span className="carousel-control-next-icon" aria-hidden="true" />
-                            <span className="sr-only">Próximo</span>
-                        </a>
-                    </div>
-                    {/* Carrosel celular */}
-                    <div
-                        id="carouselExampleControls2"
-                        className="carousel slide"
-                        data-ride="carousel"
-                    >
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/5adc69c317a82e88002b217727f36257.jpg"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/Logotipo 3.png"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/5adc69c317a82e88002b217727f36257.jpg"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/5adc69c317a82e88002b217727f36257.jpg"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/5adc69c317a82e88002b217727f36257.jpg"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/5adc69c317a82e88002b217727f36257.jpg"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/5adc69c317a82e88002b217727f36257.jpg"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="row d-flex justify-content-center">
-                                    <img
-                                        className="d-block carrosel-img"
-                                        src="media/5adc69c317a82e88002b217727f36257.jpg"
-                                        alt="Primeiro Slide"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <a
-                            className="carousel-control-prev"
-                            href="#carouselExampleControls2"
-                            role="button"
-                            data-slide="prev"
-                        >
-                            <span className="carousel-control-prev-icon" aria-hidden="true" />
-                            <span className="sr-only">Anterior</span>
-                        </a>
-                        <a
-                            className="carousel-control-next"
-                            href="#carouselExampleControls2"
-                            role="button"
-                            data-slide="next"
-                        >
-                            <span className="carousel-control-next-icon" aria-hidden="true" />
-                            <span className="sr-only">Próximo</span>
-                        </a>
-                    </div>
-                    {/* Carrosel celular */}
+
                 </section>
-
                 <section ref={ref9} className={`section3 fade-in ${inView9 ? 'show' : ''}`} >
                     <div className="container">
                         <div className="text-center mb-5">
@@ -667,7 +536,6 @@ export const Home = () => {
                     </div>
                 </footer>
             </>
-
         </>
     );
 };
