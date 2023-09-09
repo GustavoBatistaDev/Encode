@@ -11,7 +11,7 @@ body {
 
   background-repeat: no-repeat;
   object-fit: cover;
-  background-color: #171717;
+  background-color: black;
   overflow-x: hidden;
   background-position: center -200px;
 }

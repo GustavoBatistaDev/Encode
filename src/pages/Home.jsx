@@ -4,13 +4,14 @@ import logo2 from '../assets/Logotipo 2.png';
 
 
 import ux from '../assets/Baseessa.png';
-
+import head from '../assets/head.svg';
+import rocket from '../assets/Base3 (1).svg';
+import sky from '../assets/Base4.svg';
 
 import arrow from '../assets/arrow.svg';
 import monitor from '../assets/image 1main.svg';
 import boy from '../assets/Groupboy.svg';
 
-import portifolio from '../assets/5adc69c317a82e88002b217727f36257.jpg';
 import { useInView } from 'react-intersection-observer';
 
 import './Style.css';
@@ -198,15 +199,15 @@ export const Home = () => {
                                                 <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
                                             </div>
                                             <div className="">
-                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={head} alt="" />
                                             </div>
                                         </div>
                                         <div style={{ position: 'absolute', right: '0', top: '265px' }} className="container-images d-flex ">
                                             <div className="">
-                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={rocket} alt="" />
                                             </div>
                                             <div className="">
-                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                                <img height='250'  className='mx-2' src={sky} alt="" />
                                             </div>
                                         </div>
 
@@ -251,9 +252,7 @@ export const Home = () => {
                                             Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
                                         <p className='w-75'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
-                                        <a href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
-                                            <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
-                                        </a>
+                                       
                                     </div>
                                 </div>
                                 <div className="my-5 col-md-6 d-block ">
