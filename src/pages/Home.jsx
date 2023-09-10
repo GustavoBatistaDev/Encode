@@ -120,7 +120,7 @@ export const Home = () => {
                     </div>
                 </header>
                 {/* carrosel */}
-                <div className="carrosel" style={{position: 'absolute', top: '52vw', width: '100%'}}>
+                <div className="carrosel">
                     <div
                         id="carouselExampleSlidesOnly"
                         className="carousel slide text-center"
