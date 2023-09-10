@@ -1,16 +1,17 @@
 import logo from '../assets/Logotipo icon 1.png';
 import logo2 from '../assets/Logotipo 2.png';
 
-
-
-import ux from '../assets/Baseessa.png';
-import head from '../assets/head.svg';
+import ux from '../assets/31.svg';
+import head from '../assets/4two.svg';
 import rocket from '../assets/Base3 (1).svg';
 import sky from '../assets/Base4.svg';
-
 import arrow from '../assets/arrow.svg';
 import monitor from '../assets/image 1main.svg';
 import boy from '../assets/Groupboy.svg';
+
+import notebook from '../assets/Framenotebook.svg';
+import graphics from '../assets/Groupgraphics.svg';
+import bag from '../assets/Groupbag.svg';
 
 import { useInView } from 'react-intersection-observer';
 
@@ -77,32 +78,32 @@ export const Home = () => {
                     </nav>
                     {/* Links nav */}
                     {/* Seção header */}
-                   <div  className="section">
-                   <div className='mt-5'>
-                        <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
-                            <div className="row">
-                                <div className="texto-header col-md-6"  >
-                                    <h1 className="font-weight-bold">
-                                        Transforme sua presença online em um sucesso!
-                                    </h1>
-                                    <p>
-                                        tenha um site responsivo, com design moderno e amplie sua clientela na internet!
-                                    </p>
+                    <div className="section main-section">
+                        <div className='mt-5'>
+                            <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
+                                <div className="row">
+                                    <div className="texto-header col-md-6"  >
+                                        <h1 className="font-weight-bold">
+                                            Transforme sua presença online em um sucesso!
+                                        </h1>
+                                        <p>
+                                            tenha um site responsivo, com design moderno e amplie sua clientela na internet!
+                                        </p>
 
-                                    <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                        <button className="btn-header2">SAIBA MAIS</button>
-                                    </a>
+                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-header2">SAIBA MAIS</button>
+                                        </a>
 
+                                    </div>
+
+                                    <div ref={ref3} className={`header-img col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
+                                        <img className='main-image' src={monitor} />
+                                    </div>
                                 </div>
 
-                                <div ref={ref3} className={`header-img col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
-                                    <img className='main-image' src={monitor} />
-                                </div>
                             </div>
-
                         </div>
                     </div>
-                   </div>
                     <div className="fixed-network">
                         <a href="#" className='d-block text-white' target="_blank">
                             <i className="fa-brands fa-linkedin-in" />
@@ -119,7 +120,7 @@ export const Home = () => {
                     </div>
                 </header>
                 {/* carrosel */}
-                <div style={{marginTop: '-400px'}} className="carrosel">
+                <div className="carrosel" style={{position: 'absolute', top: '52vw', width: '100%'}}>
                     <div
                         id="carouselExampleSlidesOnly"
                         className="carousel slide text-center"
@@ -128,7 +129,7 @@ export const Home = () => {
                         <div className="carousel-inner">
                             <div
                                 className="carousel-item"
-                                style={{ background: "linear-gradient(to right ,#03a9f4, #FF7DB2)" }}
+                                style={{ background: "linear-gradient(to right ,#03a9f4, #252797)" }}
                             >
                                 <p className="texto-carrosel">
                                     Com a Encode, tornamos o seu site altamente persuasivo.
@@ -136,7 +137,7 @@ export const Home = () => {
                             </div>
                             <div
                                 className="carousel-item active"
-                                style={{ background: "linear-gradient(to right ,#FF7DB2, #3D40F4)" }}
+                                style={{ background: "linear-gradient(to right ,#03a9f4, #252797)" }}
                             >
                                 <p className="texto-carrosel">
                                     Com a Encode, o design do seu site será absolutamente cativante.
@@ -144,7 +145,7 @@ export const Home = () => {
                             </div>
                             <div
                                 className="carousel-item"
-                                style={{ background: "linear-gradient(to right ,#3D40F4, #03a9f4)" }}
+                                style={{ background: "linear-gradient(to right ,#03a9f4, #252797)" }}
                             >
                                 <p className="texto-carrosel">
                                     Com a Encode, sua presença online se destacará nas pesquisas.
@@ -162,22 +163,21 @@ export const Home = () => {
 
 
 
-                <section className='section' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section className='section description'>
                     <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
-                        <div className="container">
+                        <div className="container mb-5">
                             <div className={` text-center `}>
-                                <p className="p-section1">
-                                    <span className="section1-nome">ENCODE</span>
+                                <h1 style={{fontWeight: 'bold'}} className="p-section1">
                                     <br />
-                                    Transforme visitantes em clientes, e
+                                    Transforme visitantes em clientes, e 
                                     <span className='gradient'>
-                                        Cliques
+                                        &nbsp;Cliques
                                     </span> em lucros.{" "}
-                                </p>
+                                </h1>
                             </div>
                         </div>
                     </section>
-                    <section className="">
+                    <section className="describe">
                         <div className="container">
                             <div>
                                 <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
@@ -207,7 +207,7 @@ export const Home = () => {
                                                 <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={rocket} alt="" />
                                             </div>
                                             <div className="">
-                                                <img height='250'  className='mx-2' src={sky} alt="" />
+                                                <img height='250' className='mx-2' src={sky} alt="" />
                                             </div>
                                         </div>
 
@@ -238,7 +238,8 @@ export const Home = () => {
 
 
 
-                <section className='section effect' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section className=' effect' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+
                     <div className="container">
                         <div>
                             <div className={`row d-flex justify-content-center `} >
@@ -246,11 +247,11 @@ export const Home = () => {
                                     <h2 className='text-white'>Sobre Nós</h2>
                                     <div className="box-tec text-left">
 
-                                        <h1 className='mb-5 w-75' >
+                                        <h1 className='mb-5 w-75 about-title'>
                                             Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
                                         <p className='w-75'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
-                                       
+
                                     </div>
                                 </div>
                                 <div className="my-5 col-md-6 d-block ">
@@ -280,9 +281,9 @@ export const Home = () => {
 
 
 
-                <section className="section" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section className="my-5" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
 
-                    <section ref={ref10} className={`section1 fade-in ${inView10 ? 'show' : ''}`}>
+                    <section ref={ref10} className={`section1 fade-in mb-5 ${inView10 ? 'show' : ''}`}>
                         <h1 style={{ fontSize: '50px' }} className="text-white text-center">Conheça os nossos <span className='method'>Serviços</span></h1>
                         <h3 className='text-center text-white'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
                     </section>
@@ -290,124 +291,135 @@ export const Home = () => {
                         <div className="container-fluid">
                             <div className="row justify-content-center">
                                 <div className="">
-                                    <div className="card-service ">
+                                    <div className="card-service">
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 style={{ fontWeight: 'bold' }} className='services-title'>Institucional</h1>
+                                            <h1 className='services-title'>Institucional</h1>
+                                        </div>
+                                        <div className="container-img-card">
+                                            <img src={notebook} alt="" />
                                         </div>
                                         <div className="services-content">
                                             <ul>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Responsivo - Celular, PC & Tablet;
+                                                    <span className='item-card'> &nbsp;Responsivo-Celular, PC & Tablet;</span>
+                                                </li>
+
+                                                <li className='my-3 text-left'>
+                                                    <img src={arrow} alt="" />
+                                                    <span className='item-card'> &nbsp;Tenha seu blog;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Com até 5 páginas;
+                                                    <span className='item-card'> &nbsp;Ofereça seus serviços;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Tenha seu blog;
+                                                    <span className='item-card'> &nbsp;Capte clientes 24h por dia;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Ofereça seus serviços;
+                                                    <span className='item-card'> &nbsp;Criação de email comercial;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Capte clientes 24h por dia;
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    &nbsp;Criação de email comercial;
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    &nbsp;Ideal para autônomos/empresas;
+                                                    <span className='item-card'>&nbsp;Ideal para autônomos/empresas;</span>
                                                 </li>
                                             </ul>
-                                            <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                                <button className="btn-footer-service">QUERO MEU SITE</button>
-                                            </a>
+
                                         </div>
+                                        <a  href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-card">Quero meu site</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="">
                                     <div className="card-service">
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 style={{ fontWeight: 'bold' }} className='services-title'>Vendas</h1>
+                                            <h1 className='services-title'>Vendas</h1>
+                                        </div>
+                                        <div className="container-img-card">
+                                            <img src={graphics} alt="" />
                                         </div>
                                         <div className="services-content">
                                             <ul>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Responsivo - Celular, PC & Tablet;
+                                                    <span className='item-card'> &nbsp;Responsivo-Celular, PC & Tablet;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Carregamento rápido;
+                                                    <span className='item-card'> &nbsp;Carregamento rápido;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Copywriting profissional;
+                                                    <span className='item-card'> &nbsp;Copywriting Profissional;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Design moderno & criativo;
+                                                    <span className='item-card'> &nbsp;Design moderno e criativo;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Integração c/ ferramentas de  &nbsp;  &nbsp;marketing;
+                                                    <span className="item-card"> &nbsp;Integração c/ ferramentas de &nbsp;marketing;</span>
                                                 </li>
                                             </ul>
-                                            <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                                <button className="btn-footer-service">QUERO MEU SITE</button>
-                                            </a>
+
+
                                         </div>
+                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-card">Quero meu site</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="">
-                                    <div className="card-service">
+                                    <div className="card-service" >
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 style={{ fontWeight: 'bold' }} className='services-title'>Landing Pages</h1>
+                                            <h1 className='services-title'>Landing Pages</h1>
+                                        </div>
+                                        <div style={{marginTop: '-40px'}} className="container-img-card">
+                                            <img src={bag} alt="" />
                                         </div>
                                         <div className="services-content">
                                             <ul>
-                                                <li className='my-3 text-left'>
+                                                <li className='my-3  text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Responsivo - Celular, PC & Tablet;
+                                                    <span className='item-card'> &nbsp;Responsivo-Celular, PC & Tablet;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Integração com WhatsApp;
+                                                    <span className='item-card'> &nbsp;Integração com WhatsApp;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Aumente as vendas com Up-sells;
+                                                    <span className='item-card'> &nbsp;Up nas vendas com UpSeils;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp; Down-sells e Cross-sells;
+                                                    <span className='item-card'> &nbsp;Down sells e cross sells;</span>
+                                                </li>
+                                                <li className='my-3 text-left '>
+                                                    <img src={arrow} alt="" />
+                                                    <span className='item-card'> &nbsp;Design 3D/Animações;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
-                                                    &nbsp;Criação de e-mail comercial;
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    &nbsp;Criação de email comercial;
+                                                    <span className='item-card'> &nbsp;Melhores práticas de SEO;</span>
                                                 </li>
                                                 <li className='my-3 text-left'>
                                                     <img src={arrow} alt="" />
                                                     &nbsp;Carregamento rápido;
                                                 </li>
                                             </ul>
-                                            <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                                <button className="btn-footer-service">QUERO MEU SITE</button>
-                                            </a>
+
+
                                         </div>
+                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button className="btn-card">Quero meu site</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -432,21 +444,12 @@ export const Home = () => {
 
 
 
-                <section >
-                    <div className="container">
-                        <div ref={ref6} className={` text-center fade-in ${inView6 ? 'show' : ''}`}>
-                            <p className="p-section1">
-                                <h1 style={{ fontSize: '52px' }} className="section1-nome">Nosso <span className='method'>Portfólio</span></h1>
-                                <br />
-                                A categoria de portfólio é uma seção dedicada a apresentar os trabalhos que realizamos para empresas parceiras. Aproveite para explorar nossos projetos
-                                realizados e faça parte dessa história!
-                            </p>
-                        </div>
-                    </div>
 
 
-                </section>
-                <section ref={ref9} className={`section3 fade-in ${inView9 ? 'show' : ''}`} >
+
+
+
+                <section ref={ref9} className={`fade-in ${inView9 ? 'show' : ''}`} >
                     <div className="container">
                         <div className="text-center mb-5">
                             <img src="media/Logotipo icon 1.png" className="mb-3" alt="" />
