@@ -238,7 +238,7 @@ export const Home = () => {
 
 
 
-                <section className=' effect' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section ref={ref6} className={`effect  fade-in ${inView6 ? 'show' : ''}`}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
 
                     <div className="container">
                         <div>
