@@ -467,7 +467,7 @@
 }
 
 
-.container-header {}
+
 
 
 
@@ -542,6 +542,10 @@
     background-size: 300%;
     border-radius: 100px;
     z-index: 1;
+}
+
+.reduce {
+    width: 75%;
 }
 
 .btn-submit:hover {
@@ -680,191 +684,11 @@ input:focus {
 }
 
 /* Dispositivos extra small (telefones em vertical, com menos de 400px) */
-@media (max-width: 414px) {
-    .icons2 {
-        margin-left: 23px;
-    }
-
-    .contato {
-        text-align: center;
-    }
-
-    .contato h3 {
-        font-size: 1.4em;
-        margin-bottom: 20px;
-    }
-
-    .section1 {
-        margin-top: 8em;
-    }
-
-    .section3 {
-        margin-top: 5em;
-    }
-
-    .icons {
-        margin-top: -6px;
-    }
-
-    .icons a {
-        font-size: 0.8em !important;
-    }
-
-    .navbar-brand img {
-        margin-left: 13px;
-    }
-
-    .texto-header {
-        text-align: center;
-        font-size: 0.9em;
-    }
-
-    .texto-carrosel {
-        font-size: 0.6em !important;
-    }
-
-    .carrosel-img {
-        width: 70% !important;
-        margin: 0 15px;
-    }
-
-    .section2 .carousel-control-prev-icon {
-        margin-top: 11em !important;
-    }
-
-    .section2 .carousel-control-next-icon {
-        margin-top: 11em !important;
-    }
-
-    .foguete {
-        margin-top: 200px;
-        padding-bottom: 100px;
-        position: absolute;
-        left: 50%;
-        /* Define a posição horizontal no meio */
-        top: 50%;
-        /* Define a posição vertical no meio */
-        transform: translate(-50%, -50%);
-        /* Move o elemento de volta metade de sua largura e altura */
-        height: 300px;
-    }
-
-    #sd {
-        clear: both;
-    }
-
-    .rocket {
-        height: 200px;
-    }
-
-    p,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    a {
-        text-align: center !important;
-    }
-}
-
-/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
-@media (max-width: 575.98px) {
-    .section3 {
-        margin-top: 20em !important;
-    }
-
-    .icons {
-        margin-top: -6px;
-    }
-
-    .icons a {
-        font-size: 0.8em;
-    }
-
-    .navbar-brand img {
-        margin-left: 13px;
-    }
-
-    .texto-carrosel {
-        font-size: 0.75em;
-    }
-
-    .carrosel-img {
-        width: 70% !important;
-        margin: 0 15px;
-    }
-
-    .section2 .carousel-control-prev-icon {
-        margin-top: 350% !important;
-    }
-
-    .section2 .carousel-control-next-icon {
-        margin-top: 350% !important;
-    }
-}
-
-/* // Dispositivos small (telefones em modo paisagem, com menos de 768px) */
-@media (max-width: 767.98px) {
-    .formulario {
-        margin-top: 0em !important;
-    }
-
-    .section3 {
-        margin-top: 70% !important;
-    }
-
-    .formulario {
-        width: 25em;
-        color: #fff;
-        margin: 0px 25px 40px 25px;
-        border-radius: 0.5em;
-    }
-
-    .btn-submit {
-        width: 14.4em !important;
-    }
-
-    .header-img img {
-        display: none !important;
-    }
-
-    .texto-header {
-        width: 500px;
-        margin-top: 90px;
-    }
-
-    #carouselExampleControls {
-        display: none !important;
-    }
-
-    #carouselExampleControls2 {
-        display: block !important;
-    }
-
-    .carrosel-img {
-        width: 60%;
-        margin: 0 15px;
-    }
-
-    .section2 .carousel-control-prev-icon {
-        margin-top: 300%;
-    }
-
-    .section2 .carousel-control-next-icon {
-        margin-top: 300%;
-    }
-
-    .btn-header {
-        display: none;
-    }
 
 
-}
 
 /* // Dispositivos médios (tablets com menos de 992px) */
-@media (max-width: 1126px) {
+@media (max-width: 1126px) and (min-width: 993px) {
     #carouselExampleControls {
         display: block;
     }
@@ -948,13 +772,18 @@ input:focus {
         height: 210px;
     }
 
-    .btn-header2, .btn-card {
+    .btn-header2,
+    .btn-card {
 
-       
+
         height: 2.5em;
-        
+
     }
-    
+
+    .texto-carrosel {
+        font-size: 16px;
+    }
+
 
 }
 
@@ -993,5 +822,56 @@ input:focus {
 
 
 
+
+
+}
+
+
+
+
+
+@media (max-width: 991px) {
+
+
+    .main-image {
+        margin: 0 auto;
+        height: 440px;
+
+    }
+
+    .mains-title,
+    h2,
+    p {
+        text-align: center;
+    }
+
+    .btn-header2 {
+        margin: 0 auto;
+    }
+
+    .mains-title {
+        font-size: 35px !important;
+    }
+
+
+    .description-images {
+        height: 210px;
+    }
+
+    .btn-header2,
+    .btn-card {
+
+
+        height: 2.5em;
+
+    }
+
+    .texto-carrosel {
+        font-size: 16px;
+    }
+
+    .reduce{
+        width: 100%;
+    }
 
 }

@@ -81,21 +81,21 @@ export const Home = () => {
                     <div id="main" className="section main-section">
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
-                                <div className="row">
-                                    <div className="texto-header col-md-6"  >
-                                        <h1 className="font-weight-bold mains-title">
+                                <div style={{border: '1px solid red'}} className="row">
+                                    <div className="texto-header col-lg-6 mx-auto">
+                                        <h1 className="font-weight-bold mains-title ">
                                             Transforme sua presença online em um sucesso!
                                         </h1>
                                         <p>
                                             tenha um site responsivo, com design moderno e amplie sua clientela na internet!
                                         </p>
 
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button className="btn-header2">SAIBA MAIS</button>
+                                        <a className='d-flex' href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button  className="btn-header2">SAIBA MAIS</button>
                                         </a>
 
                                     </div>
-                                    <div ref={ref3} className={`col-md-6 fade-in ${inView3 ? 'show' : ''}`} >
+                                    <div  style={{border: '1px solid red'}} ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`} >
                                         <img className='main-image' src={monitor} />
                                     </div>
                                 </div>
@@ -175,34 +175,36 @@ export const Home = () => {
                             </div>
                         </div>
                     </section>
+
+
                     <section className="describe">
                         <div className="container">
                             <div>
                                 <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
-                                    <div className="col-md-6">
+                                    <div className="col-lg-6">
                                         <h1 className="text-white title-2 mains-title">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
-                                        <div className="box-tec text-left">
+                                        <div className="box-tec">
 
-                                            <p className='mb-5 w-75' >
+                                            <p className='mb-5 reduce' >
                                                 Um site moderno e otimizado é essencial para empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência do usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
                                             </p>
-                                            <a href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
-                                                <button className="btn-header2">VER TODOS OS SERVIÇOS</button>
+                                            <a className='d-flex'  href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
+                                                <button  className="btn-header2">VER TODOS OS SERVIÇOS</button>
                                             </a>
                                         </div>
                                     </div>
-                                    <div className="col-md-6 d-block ">
-                                        <div style={{ position: 'absolute', right: '0' }} className="container-images d-flex ">
+                                    <div className="col-lg-6 d-block">
+                                        <div style={{ position: 'absolute' }} className="container-images d-flex ">
                                             <div className="">
-                                                <img  style={{ borderRadius: '30px' }} className='mx-2 description-images' src={ux} alt="" />
+                                                <img  style={{ borderRadius: '30px' }} className='description-images' src={ux} alt="" />
                                             </div>
                                             <div className="">
-                                                <img  style={{ borderRadius: '30px' }} className='mx-2 description-images' src={head} alt="" />
+                                                <img  style={{ borderRadius: '30px' }} className='description-images' src={head} alt="" />
                                             </div>
                                         </div>
-                                        <div style={{ position: 'absolute', right: '0', top: '265px' }} className="container-images d-flex ">
+                                        <div style={{ position: 'absolute', top: '265px' }} className="container-images d-flex ">
                                             <div className="">
-                                                <img style={{ borderRadius: '30px' }} className='mx-2 description-images' src={rocket} alt="" />
+                                                <img style={{ borderRadius: '30px' }} className='description-images' src={rocket} alt="" />
                                             </div>
                                             <div className="">
                                                 <img className='mx-2 description-images' src={sky} alt="" />
@@ -243,7 +245,7 @@ export const Home = () => {
                             <div className={`row d-flex justify-content-center `} >
                                 <div className="col-md-6">
                                     <h2 className='text-white'>Sobre Nós</h2>
-                                    <div className="box-tec text-left">
+                                    <div className="box-tec">
 
                                         <h1 className='mb-5 w-75 about-title mains-title'>
                                             Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
@@ -299,7 +301,7 @@ export const Home = () => {
                                         </div>
                                         <div className="services-content">
                                             <ul>
-                                                <li className='my-3 text-left'>
+                                                <li className='my-3'>
                                                     <img src={arrow} alt="" />
                                                     <span className='item-card'> &nbsp;Responsivo-Celular, PC & Tablet;</span>
                                                 </li>
