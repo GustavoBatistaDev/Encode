@@ -319,18 +319,6 @@
 
 
 
-/* section 1 */
-
-.section {
-    
-
-    padding-bottom: 200px;
-    padding-top: 50px;
-}
-
-.section3 {
-    margin-top: 15em !important;
-}
 
 .p-section1 {
     color: #fff;
@@ -715,9 +703,7 @@ input:focus {
         display: none;
     }
 
-    .section3 {
-        margin-top: 16em;
-    }
+
 
     .btn-submit {
         width: 11.4em !important;
@@ -1067,4 +1053,9 @@ input:focus {
     .description-images {
         height: 170px !important;
     }
+}
+
+
+.second-section{
+    margin-top: -200px;
 }

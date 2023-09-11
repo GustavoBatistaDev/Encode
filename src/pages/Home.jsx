@@ -82,7 +82,7 @@ export const Home = () => {
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                                 <div  className="row">
-                                    <div className="texto-header col-lg-6 ">
+                                    <div className="texto-header col-lg-6">
                                         <h1 className="font-weight-bold mains-title main-title">
                                             Transforme sua presença online em um sucesso!
                                         </h1>
@@ -161,11 +161,11 @@ export const Home = () => {
 
 
 
-                <section className='section description'>
+                <section style={{border:'1px solid red'}}  className='second-section'>
                     <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
-                        <div className="container my-5">
+                        <div className="container">
                             <div className={` text-center `}>
-                                <h1 style={{fontWeight: 'bold'}} className="p-section1 pt-5 ">
+                                <h1 style={{fontWeight: 'bold'}} className="p-section1">
                                     <br />
                                     Transforme visitantes em clientes, e 
                                     <span className='gradient'>
@@ -177,7 +177,7 @@ export const Home = () => {
                     </section>
 
 
-                    <section className="describe">
+                    <section style={{border:'1px solid red'}} className="mt-4">
                         <div className="container">
                             <div>
                                 <div  ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
