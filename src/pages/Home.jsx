@@ -4,6 +4,7 @@ import logo2 from '../assets/Logotipo 2.png';
 import ux from '../assets/31.svg';
 import head from '../assets/4two.svg';
 import rocket from '../assets/Base3 (1).svg';
+
 import sky from '../assets/Base4.svg';
 import arrow from '../assets/arrow.svg';
 import monitor from '../assets/image 1main.svg';
@@ -28,6 +29,8 @@ export const Home = () => {
     const [ref10, inView10] = useInView();
     const [ref11, inView11] = useInView();
 
+ 
+    
     return (
         <>
             <>
@@ -75,13 +78,13 @@ export const Home = () => {
                             </div>
                         </div>
                     </nav>
-                   
+
                     {/* Links nav */}
                     {/* Seção header */}
                     <div id="main" className="section main-section">
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
-                                <div  className="row">
+                                <div className="row">
                                     <div className="texto-header col-lg-6">
                                         <h1 className="font-weight-bold mains-title main-title">
                                             Transforme sua presença online em um sucesso!
@@ -91,12 +94,12 @@ export const Home = () => {
                                         </p>
 
                                         <a className='d-flex' href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button  className="btn-header2">SAIBA MAIS</button>
+                                            <button className="btn-header2">SAIBA MAIS</button>
                                         </a>
 
                                     </div>
-                                    <div  ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`}>
-                                        <img className='main-image'  src={monitor} />
+                                    <div ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`}>
+                                        <img className='main-image' src={monitor} />
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +121,7 @@ export const Home = () => {
                     </div>
                 </header>
                 {/* carrosel */}
-                <div style={{border:'1px solid transparent'}} className="carrosel">
+                <div style={{ border: '1px solid transparent' }} className="carrosel">
                     <div
                         id="carouselExampleSlidesOnly"
                         className="carousel slide text-center"
@@ -161,13 +164,13 @@ export const Home = () => {
 
 
 
-                <section  className='second-section'>
+                <section className='second-section'>
                     <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
                         <div className="container">
                             <div className={` text-center `}>
-                                <h1 style={{fontWeight: 'bold'}} className="p-section1">
+                                <h1 style={{ fontWeight: 'bold' }} className="p-section1">
                                     <br />
-                                    Transforme visitantes em clientes, e 
+                                    Transforme visitantes em clientes, e
                                     <span className='gradient'>
                                         &nbsp;Cliques
                                     </span> em lucros.{" "}
@@ -180,7 +183,7 @@ export const Home = () => {
                     <section className="mt-5 how">
                         <div className="container">
                             <div>
-                                <div  ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
+                                <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
                                     <div className="col-lg-6 part-1" >
                                         <h1 className="text-white title-2 mains-title">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
                                         <div className="box-tec">
@@ -189,20 +192,20 @@ export const Home = () => {
                                                 Um site moderno e otimizado é essencial para empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência do usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
                                             </p>
                                             <a className='d-flex' href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button  className="btn-header2">ver todos os serviços</button>
-                                        </a>
+                                                <button className="btn-header2">ver todos os serviços</button>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 d-block main-container-image-description">
                                         <div className="container-images d-flex ">
                                             <div className="">
-                                                <img  style={{ borderRadius: '30px' }} className='description-images' src={ux} alt="" />
+                                                <img style={{ borderRadius: '30px' }} className='description-images' src={ux} alt="" />
                                             </div>
                                             <div className="">
-                                                <img  style={{ borderRadius: '30px' }} className='description-images' src={head} alt="" />
+                                                <img style={{ borderRadius: '30px' }} className='description-images' src={head} alt="" />
                                             </div>
                                         </div>
-                                        <div  className="container-images d-flex ">
+                                        <div className="container-images d-flex ">
                                             <div className="">
                                                 <img style={{ borderRadius: '30px' }} className='description-images' src={rocket} alt="" />
                                             </div>
@@ -238,7 +241,7 @@ export const Home = () => {
 
 
 
-                <section ref={ref6} className={`effect about fade-in ${inView6 ? 'show' : ''}`}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section ref={ref6} className={`effect about fade-in ${inView6 ? 'show' : ''}`} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
 
                     <div className="container">
                         <div>
@@ -256,7 +259,7 @@ export const Home = () => {
                                 </div>
                                 <div className="my-5 col-lg-6 d-block ">
 
-                                    <div id='main-2'  className="container-image-2 d-flex">
+                                    <div id='main-2' className="container-image-2 d-flex">
                                         <img id='two-image' className='main-image' src={boy} />
                                     </div>
 
@@ -281,7 +284,7 @@ export const Home = () => {
 
 
 
-                <section className="my-5 about-services" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section style={{ overflowY: 'hidden' }} className="my-5 about-services" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
 
                     <section ref={ref10} className={`section1 fade-in mb-5 ${inView10 ? 'show' : ''}`}>
                         <h1 style={{ fontSize: '50px' }} className="text-white text-center mains-title">Conheça os nossos <span className='method'>Serviços</span></h1>
@@ -329,8 +332,8 @@ export const Home = () => {
                                             </ul>
 
                                         </div>
-                                        <a  href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button style={{marginTop: '40px'}} className="btn-card">Quero meu site</button>
+                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button style={{ marginTop: '40px' }} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
                                 </div>
@@ -370,7 +373,7 @@ export const Home = () => {
 
                                         </div>
                                         <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button style={{marginTop: '55px'}} className="btn-card">Quero meu site</button>
+                                            <button style={{ marginTop: '55px' }} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
                                 </div>
@@ -378,10 +381,10 @@ export const Home = () => {
                                     <div className="card-service" >
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 style={{zIndex: '1000'}} className='services-title mains-title'>Landing Pages</h1>
+                                            <h1 style={{ zIndex: '1000' }} className='services-title mains-title'>Landing Pages</h1>
                                         </div>
-                                        <div style={{marginTop: '-40px'}} className="container-img-card">
-                                            <img style={{zIndex: '-1'}} src={bag} alt="" />
+                                        <div style={{ marginTop: '-40px' }} className="container-img-card">
+                                            <img style={{ zIndex: '-1' }} src={bag} alt="" />
                                         </div>
                                         <div className="services-content">
                                             <ul>

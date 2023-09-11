@@ -1073,3 +1073,18 @@ input:focus {
 .about-services{
     height: 100%;
 }
+
+.loader{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-loader{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura do contêiner para preencher toda a altura da janela */
+  }
+  

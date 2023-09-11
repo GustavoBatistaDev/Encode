@@ -1,12 +1,12 @@
-import './App.css'
-import { Home } from './pages/Home'
+import './App.css';
+
+import { MyRoutes } from './Routes';
 
 function App() {
 
-
   return (
     <>
-     <Home/>
+     <MyRoutes/>
     </>
   )
 }
