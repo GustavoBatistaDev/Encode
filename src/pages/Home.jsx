@@ -118,7 +118,7 @@ export const Home = () => {
                     </div>
                 </header>
                 {/* carrosel */}
-                <div className="carrosel">
+                <div style={{border:'1px solid transparent'}} className="carrosel">
                     <div
                         id="carouselExampleSlidesOnly"
                         className="carousel slide text-center"
@@ -161,7 +161,7 @@ export const Home = () => {
 
 
 
-                <section style={{border:'1px solid red'}}  className='second-section'>
+                <section  className='second-section'>
                     <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
                         <div className="container">
                             <div className={` text-center `}>
@@ -177,7 +177,7 @@ export const Home = () => {
                     </section>
 
 
-                    <section style={{border:'1px solid red'}} className="mt-4">
+                    <section className="mt-4">
                         <div className="container">
                             <div>
                                 <div  ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >

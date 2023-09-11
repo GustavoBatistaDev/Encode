@@ -1053,9 +1053,12 @@ input:focus {
     .description-images {
         height: 170px !important;
     }
+
+    #main{
+        margin-top: -100px;
+    }
 }
 
-
 .second-section{
-    margin-top: -200px;
+    padding: 50px 0;
 }
