@@ -165,7 +165,7 @@ export const Home = () => {
                     <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
                         <div className="container my-5">
                             <div className={` text-center `}>
-                                <h1 style={{fontWeight: 'bold'}} className="p-section1">
+                                <h1 style={{fontWeight: 'bold'}} className="p-section1 pt-5 mt-5">
                                     <br />
                                     Transforme visitantes em clientes, e 
                                     <span className='gradient'>
@@ -238,25 +238,25 @@ export const Home = () => {
 
 
 
-                <section ref={ref6} className={`effect  fade-in ${inView6 ? 'show' : ''}`}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section ref={ref6} className={`effect about fade-in ${inView6 ? 'show' : ''}`}  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
 
                     <div className="container">
                         <div>
                             <div className={`row d-flex justify-content-center `} >
-                                <div className="col-md-6">
+                                <div className="col-lg-6">
                                     <h2 className='text-white'>Sobre Nós</h2>
                                     <div className="box-tec">
 
-                                        <h1 className='mb-5 w-75 about-title mains-title'>
+                                        <h1 className='mb-5 reduce about-title mains-title'>
                                             Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
-                                        <p className='w-75'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
+                                        <p className='reduce'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
 
                                     </div>
                                 </div>
-                                <div className="my-5 col-md-6 d-block ">
+                                <div className="my-5 col-lg-6 d-block ">
 
-                                    <div id='main-2' style={{ position: 'absolute', right: '1px', top: '-70px' }} className="container-image-2">
+                                    <div id='main-2'  className="container-image-2 d-flex">
                                         <img className='main-image' src={boy} />
                                     </div>
 
