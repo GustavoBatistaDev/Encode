@@ -177,20 +177,20 @@ export const Home = () => {
                     </section>
 
 
-                    <section className="mt-4">
+                    <section className="mt-5 how">
                         <div className="container">
                             <div>
                                 <div  ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
-                                    <div className="col-lg-6" >
+                                    <div className="col-lg-6 part-1" >
                                         <h1 className="text-white title-2 mains-title">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
                                         <div className="box-tec">
 
                                             <p className='mb-5 reduce' >
                                                 Um site moderno e otimizado é essencial para empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência do usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
                                             </p>
-                                            <a className='d-flex'  href="https://api.whatsapp.com/send?phone=5573981933667&text=Oi,%20gostaria%20de%20mais%20informações%20sobre%20a%20Encode.%20">
-                                                <button  className="btn-header2">VER TODOS OS SERVIÇOS</button>
-                                            </a>
+                                            <a className='d-flex' href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <button  className="btn-header2">ver todos os serviços</button>
+                                        </a>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 d-block main-container-image-description">
