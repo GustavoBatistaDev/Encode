@@ -972,7 +972,9 @@ input:focus {
         margin-top: -80px !important;
     }
 
-
+    .about {
+        margin-top: 220px !important;
+    }
 
     .navbar-nav {
         display: none;
@@ -1038,8 +1040,9 @@ input:focus {
         width: 100%;
     }
 
-   
-
+    .about {
+        margin: 200px 0;
+    }
 
     .description-images {
         height: 170px !important;
