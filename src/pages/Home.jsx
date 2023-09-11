@@ -81,7 +81,7 @@ export const Home = () => {
                     <div id="main" className="section main-section">
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
-                                <div style={{border: '1px solid red'}} className="row">
+                                <div  className="row">
                                     <div className="texto-header col-lg-6 mx-auto">
                                         <h1 className="font-weight-bold mains-title ">
                                             Transforme sua presença online em um sucesso!
@@ -95,7 +95,7 @@ export const Home = () => {
                                         </a>
 
                                     </div>
-                                    <div  style={{border: '1px solid red'}} ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`} >
+                                    <div   ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`} >
                                         <img className='main-image' src={monitor} />
                                     </div>
                                 </div>
@@ -163,7 +163,7 @@ export const Home = () => {
 
                 <section className='section description'>
                     <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
-                        <div className="container mb-5">
+                        <div className="container my-5">
                             <div className={` text-center `}>
                                 <h1 style={{fontWeight: 'bold'}} className="p-section1">
                                     <br />
@@ -193,8 +193,8 @@ export const Home = () => {
                                             </a>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 d-block">
-                                        <div style={{ position: 'absolute' }} className="container-images d-flex ">
+                                    <div className="col-lg-6 d-block main-container-image-description">
+                                        <div className="container-images d-flex ">
                                             <div className="">
                                                 <img  style={{ borderRadius: '30px' }} className='description-images' src={ux} alt="" />
                                             </div>
@@ -202,7 +202,7 @@ export const Home = () => {
                                                 <img  style={{ borderRadius: '30px' }} className='description-images' src={head} alt="" />
                                             </div>
                                         </div>
-                                        <div style={{ position: 'absolute', top: '265px' }} className="container-images d-flex ">
+                                        <div  className="container-images d-flex ">
                                             <div className="">
                                                 <img style={{ borderRadius: '30px' }} className='description-images' src={rocket} alt="" />
                                             </div>

@@ -468,7 +468,16 @@
 
 
 
+.container-images{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
 
+
+.main-container-image-description{
+    padding-bottom: 70px;
+}
 
 
 @keyframes ani {
@@ -547,6 +556,7 @@
 .reduce {
     width: 75%;
 }
+
 
 .btn-submit:hover {
     animation: ani 8s linear infinite;
