@@ -159,7 +159,8 @@
     font-size: 14px;
     font-family: inherit;
     color: #fff;
-    margin: 0 auto; /* Centralizar horizontalmente */
+    margin: 0 auto;
+    /* Centralizar horizontalmente */
     width: 18em;
     height: 2.8em;
     font-weight: 600;
@@ -268,7 +269,7 @@
 
 
 
-#main{
+#main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,7 +297,7 @@
 
 }
 
-.description-images{
+.description-images {
     height: 250px;
 }
 
@@ -333,7 +334,7 @@
 }
 
 .main-image {
-   
+
     height: 600px;
     margin-top: -35px;
     margin-left: -200px;
@@ -919,33 +920,41 @@ input:focus {
         height: 220px;
     }
 
-    .main-image{
+    .main-image {
         height: 440px;
         margin-top: -35px;
         margin-left: -120px;
     }
 
-    #main-2{
+    #main-2 {
         position: relative;
-        left: 30px ;
-        
+        left: 30px;
+
     }
 
-    #main-2 img{
-       margin-top: 30px;
-       height: 350px;
-        
-        
+    #main-2 img {
+        margin-top: 30px;
+        height: 350px;
+
+
     }
 
-    .mains-title{
+    .mains-title {
         font-size: 35px !important;
     }
 
+
+    .description-images {
+        height: 210px;
+    }
+
+    .btn-header2, .btn-card {
+
+       
+        height: 2.5em;
+        
+    }
     
-.description-images{
-    height: 210px;
-}
 
 }
 
@@ -971,18 +980,18 @@ input:focus {
         font-size: 45px;
     }
 
-    .main-image{
+    .main-image {
         height: 550px;
         margin-top: 0px;
         margin-left: -160px;
     }
 
-    #main-2{
+    #main-2 {
         position: relative;
         left: 30px !important;
     }
 
 
 
-   
+
 }
