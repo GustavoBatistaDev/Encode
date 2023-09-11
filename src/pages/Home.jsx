@@ -145,7 +145,7 @@ export const Home = () => {
                                             <p className='mb-5 reduce' >
                                                 Um site moderno e otimizado é essencial para empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência do usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
                                             </p>
-                                            <a className='d-flex' href="https://web.whatsapp.com/send?phone=5573981933667">
+                                            <a className='d-flex' href="#services">
                                                 <button className="btn-header2">ver todos os serviços</button>
                                             </a>
                                         </div>
@@ -244,7 +244,7 @@ export const Home = () => {
                         <h1 style={{ fontSize: '50px' }} className="text-white text-center mains-title">Conheça os nossos <span className='method'>Serviços</span></h1>
                         <h3 className='text-center text-white mains-sub-title'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
                     </section>
-                    <section ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
+                    <section id='services'  ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
                         <div className="container-fluid">
                             <div className="row justify-content-center">
                                 <div className="">
