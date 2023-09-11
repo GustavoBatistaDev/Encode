@@ -41,6 +41,7 @@ export const Home = () => {
                                 {/* Logo */}
                                 <div className="row">
                                     <img
+                                        className='ml-4'
                                         src={logo}
                                         alt="icon"
                                         width={60}
