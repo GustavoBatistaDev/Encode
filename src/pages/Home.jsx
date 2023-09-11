@@ -120,42 +120,7 @@ export const Home = () => {
                         </a>
                     </div>
                 </header>
-                {/* carrosel */}
-                <div style={{ border: '1px solid transparent' }} className="carrosel">
-                    <div
-                        id="carouselExampleSlidesOnly"
-                        className="carousel slide text-center"
-                        data-ride="carousel"
-                    >
-                        <div className="carousel-inner">
-                            <div
-                                className="carousel-item"
-                                style={{ background: "linear-gradient(to right ,#03a9f4, #252797)" }}
-                            >
-                                <p className="texto-carrosel">
-                                    Com a Encode, tornamos o seu site altamente persuasivo.
-                                </p>
-                            </div>
-                            <div
-                                className="carousel-item active"
-                                style={{ background: "linear-gradient(to right ,#03a9f4, #252797)" }}
-                            >
-                                <p className="texto-carrosel">
-                                    Com a Encode, o design do seu site será absolutamente cativante.
-                                </p>
-                            </div>
-                            <div
-                                className="carousel-item"
-                                style={{ background: "linear-gradient(to right ,#03a9f4, #252797)" }}
-                            >
-                                <p className="texto-carrosel">
-                                    Com a Encode, sua presença online se destacará nas pesquisas.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* carosell  */}
+             
 
 
 
@@ -164,20 +129,8 @@ export const Home = () => {
 
 
 
-                <section className='second-section'>
-                    <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
-                        <div className="container">
-                            <div className={` text-center `}>
-                                <h1 style={{ fontWeight: 'bold' }} className="p-section1">
-                                    <br />
-                                    Transforme visitantes em clientes, e
-                                    <span className='gradient'>
-                                        &nbsp;Cliques
-                                    </span> em lucros.{" "}
-                                </h1>
-                            </div>
-                        </div>
-                    </section>
+                <section className=''>
+                    
 
 
                     <section className="mt-5 how">
