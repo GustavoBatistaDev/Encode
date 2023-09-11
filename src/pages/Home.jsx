@@ -83,7 +83,7 @@ export const Home = () => {
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                                 <div className="row">
                                     <div className="texto-header col-md-6"  >
-                                        <h1 className="font-weight-bold">
+                                        <h1 className="font-weight-bold mains-title">
                                             Transforme sua presença online em um sucesso!
                                         </h1>
                                         <p>
@@ -180,7 +180,7 @@ export const Home = () => {
                             <div>
                                 <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
                                     <div className="col-md-6">
-                                        <h1 className="text-white title-2">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
+                                        <h1 className="text-white title-2 mains-title">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
                                         <div className="box-tec text-left">
 
                                             <p className='mb-5 w-75' >
@@ -194,18 +194,18 @@ export const Home = () => {
                                     <div className="col-md-6 d-block ">
                                         <div style={{ position: 'absolute', right: '0' }} className="container-images d-flex ">
                                             <div className="">
-                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={ux} alt="" />
+                                                <img  style={{ borderRadius: '30px' }} className='mx-2 description-images' src={ux} alt="" />
                                             </div>
                                             <div className="">
-                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={head} alt="" />
+                                                <img  style={{ borderRadius: '30px' }} className='mx-2 description-images' src={head} alt="" />
                                             </div>
                                         </div>
                                         <div style={{ position: 'absolute', right: '0', top: '265px' }} className="container-images d-flex ">
                                             <div className="">
-                                                <img height='250' style={{ borderRadius: '30px' }} className='mx-2' src={rocket} alt="" />
+                                                <img style={{ borderRadius: '30px' }} className='mx-2 description-images' src={rocket} alt="" />
                                             </div>
                                             <div className="">
-                                                <img height='250' className='mx-2' src={sky} alt="" />
+                                                <img className='mx-2 description-images' src={sky} alt="" />
                                             </div>
                                         </div>
 
@@ -245,7 +245,7 @@ export const Home = () => {
                                     <h2 className='text-white'>Sobre Nós</h2>
                                     <div className="box-tec text-left">
 
-                                        <h1 className='mb-5 w-75 about-title'>
+                                        <h1 className='mb-5 w-75 about-title mains-title'>
                                             Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
                                         <p className='w-75'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
@@ -282,8 +282,8 @@ export const Home = () => {
                 <section className="my-5" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
 
                     <section ref={ref10} className={`section1 fade-in mb-5 ${inView10 ? 'show' : ''}`}>
-                        <h1 style={{ fontSize: '50px' }} className="text-white text-center">Conheça os nossos <span className='method'>Serviços</span></h1>
-                        <h3 className='text-center text-white'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
+                        <h1 style={{ fontSize: '50px' }} className="text-white text-center mains-title">Conheça os nossos <span className='method'>Serviços</span></h1>
+                        <h3 className='text-center text-white mains-sub-title'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
                     </section>
                     <section ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
                         <div className="container-fluid">
@@ -292,7 +292,7 @@ export const Home = () => {
                                     <div className="card-service">
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 className='services-title'>Institucional</h1>
+                                            <h1 className='services-title mains-title'>Institucional</h1>
                                         </div>
                                         <div className="container-img-card">
                                             <img src={notebook} alt="" />
@@ -336,7 +336,7 @@ export const Home = () => {
                                     <div className="card-service">
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 className='services-title'>Vendas</h1>
+                                            <h1 className='services-title  mains-title'>Vendas</h1>
                                         </div>
                                         <div className="container-img-card">
                                             <img src={graphics} alt="" />
@@ -376,7 +376,7 @@ export const Home = () => {
                                     <div className="card-service" >
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 style={{zIndex: '1000'}} className='services-title'>Landing Pages</h1>
+                                            <h1 style={{zIndex: '1000'}} className='services-title mains-title'>Landing Pages</h1>
                                         </div>
                                         <div style={{marginTop: '-40px'}} className="container-img-card">
                                             <img style={{zIndex: '-1'}} src={bag} alt="" />
@@ -452,7 +452,7 @@ export const Home = () => {
                         <div className="text-center mb-5">
                             <img src="media/Logotipo icon 1.png" className="mb-3" alt="" />
                             <p className="p-section1 mb-4">
-                                <span className="section1-nome">Conte-nos a sua necessidade</span>
+                                <span className="section1-nome mains-title">Conte-nos a sua necessidade</span>
                                 <br />
                             </p>
                         </div>
