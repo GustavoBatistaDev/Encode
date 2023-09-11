@@ -253,7 +253,7 @@ export const Home = () => {
                                         <h1 className='mb-5 reduce about-title mains-title'>
                                             Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
-                                        <p className='reduce'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
+                                        <p className='reduce'>Nosso objetivo é fornecer a você uma <br /> página online que prende o seu visitante com <br /> uma copy persuasiva e utilizar as melhores <br />práticas de UI/UX para criar a experiência<br /> mais satisfatória para o usuário em seu site!</p>
 
                                     </div>
                                 </div>

@@ -281,7 +281,6 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 220px;
-
 }
 
 /* carossel */
@@ -814,7 +813,7 @@ input:focus {
     }
 
     #main{
-        margin-top: -20px !important;
+        margin-top: -70px !important;
     }
 
     .method {
