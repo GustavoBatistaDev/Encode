@@ -5,7 +5,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  
+
+
 }
 
 body {
@@ -25,16 +26,21 @@ input[type='submit'] {
 }
 
 header {
+  overflow-x: hidden;
   background-color: #171717;
   color: #fff;
   width: 100vw;
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
+  
 }
 
-
+section{
+  overflow-x: hidden;
+}
 
 p {
   letter-spacing: 1px;
