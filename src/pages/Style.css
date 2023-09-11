@@ -12,13 +12,7 @@
     font-size: 3em;
 }
 
-.header-img img {
-    display: flex;
-    position: absolute;
-    width: 1300px;
-    right: -107px;
-    top: -135px;
-}
+
 
 .navbar-brand {
     font-weight: 600;
@@ -157,16 +151,15 @@
 }
 
 .btn-card {
-
     cursor: pointer !important;
     text-decoration: none;
-    position: absolute;
-    bottom: 40px !important;
+    position: relative;
+    bottom: -40px !important;
     border: none;
     font-size: 14px;
     font-family: inherit;
     color: #fff;
-    transform: translateX(-50%);
+    margin: 0 auto; /* Centralizar horizontalmente */
     width: 18em;
     height: 2.8em;
     font-weight: 600;
@@ -177,6 +170,7 @@
     border-radius: 30px;
     z-index: 1;
 }
+
 
 .btn-footer-service {
     cursor: pointer !important;
@@ -326,10 +320,10 @@
 }
 
 .main-image {
-    position: absolute;
-    padding-left: 450px;
-    padding-bottom: 60px;
-    height: 900px;
+   
+    height: 600px;
+    margin-top: -35px;
+    margin-left: -200px;
 }
 
 .carousel-inner {
@@ -935,7 +929,18 @@ input:focus {
         font-size: 45px;
     }
 
-    .main-section {
-        margin-top: -8vw;
+    .main-image{
+        height: 550px;
+        margin-top: 0px;
+        margin-left: -160px;
     }
+
+    #main-2{
+        position: relative;
+        left: 30px !important;
+    }
+
+
+
+   
 }

@@ -78,7 +78,7 @@ export const Home = () => {
                     </nav>
                     {/* Links nav */}
                     {/* Seção header */}
-                    <div className="section main-section">
+                    <div id="main" className="section main-section">
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                                 <div className="row">
@@ -96,7 +96,7 @@ export const Home = () => {
 
                                     </div>
 
-                                    <div ref={ref3} className={`header-img col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
+                                    <div  ref={ref3} className={`col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
                                         <img className='main-image' src={monitor} />
                                     </div>
                                 </div>
@@ -256,8 +256,8 @@ export const Home = () => {
                                 </div>
                                 <div className="my-5 col-md-6 d-block ">
 
-                                    <div style={{ position: 'absolute', right: '1px', top: '-70px' }} className="container-image-2">
-                                        <img height="600" src={boy} />
+                                    <div id='main-2' style={{ position: 'absolute', right: '1px', top: '-70px' }} className="container-image-2">
+                                        <img className='main-image' src={boy} />
                                     </div>
 
                                 </div>
@@ -330,7 +330,7 @@ export const Home = () => {
 
                                         </div>
                                         <a  href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button className="btn-card">Quero meu site</button>
+                                            <button style={{marginTop: '40px'}} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
                                 </div>
@@ -370,7 +370,7 @@ export const Home = () => {
 
                                         </div>
                                         <a href="https://web.whatsapp.com/send?phone=5573981933667">
-                                            <button className="btn-card">Quero meu site</button>
+                                            <button style={{marginTop: '55px'}} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
                                 </div>
@@ -378,10 +378,10 @@ export const Home = () => {
                                     <div className="card-service" >
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 className='services-title'>Landing Pages</h1>
+                                            <h1 style={{zIndex: '1000'}} className='services-title'>Landing Pages</h1>
                                         </div>
                                         <div style={{marginTop: '-40px'}} className="container-img-card">
-                                            <img src={bag} alt="" />
+                                            <img style={{zIndex: '-1'}} src={bag} alt="" />
                                         </div>
                                         <div className="services-content">
                                             <ul>
