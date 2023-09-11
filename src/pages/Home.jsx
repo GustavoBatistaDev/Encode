@@ -244,7 +244,7 @@ export const Home = () => {
                         <div>
                             <div className={`row d-flex justify-content-center `} >
                                 <div className="col-lg-6">
-                                    <h2 className='text-white'>Sobre Nós</h2>
+                                    <h2 className='text-white my-5'>Sobre Nós</h2>
                                     <div className="box-tec">
 
                                         <h1 className='mb-5 reduce about-title mains-title'>
@@ -257,7 +257,7 @@ export const Home = () => {
                                 <div className="my-5 col-lg-6 d-block ">
 
                                     <div id='main-2'  className="container-image-2 d-flex">
-                                        <img className='main-image' src={boy} />
+                                        <img id='two-image' className='main-image' src={boy} />
                                     </div>
 
                                 </div>
