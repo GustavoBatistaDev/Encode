@@ -876,6 +876,7 @@ input:focus {
     .mains-title,
     h2,
     p {
+ 
         text-align: center;
     }
 
@@ -887,6 +888,11 @@ input:focus {
         font-size: 35px !important;
     }
 
+    .texto-header{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
     .description-images {
         height: 210px;
@@ -923,6 +929,7 @@ input:focus {
         transform: translateX(-50%);
         margin: 0 auto;
     }
+
 
 
     .mains-title,
@@ -970,6 +977,27 @@ input:focus {
 @media (max-width: 545px) {
 
 
+    .main-image {
+        position: relative;
+        height: 280px !important;
+        left: 46% !important;
+        transform: translateX(-50%);
+        margin: 0 auto;
+    }
+
+    .description{
+        margin-top: 1px;
+    }
+
+
+    .about-services{
+        margin-top: -80px !important;
+    }
+
+    .about{
+        margin-top: 220px !important;
+    }
+
     .navbar-nav {
         display: none;
     }
@@ -982,6 +1010,14 @@ input:focus {
         margin: 0 auto;
     }
 
+    .main-parag{
+        padding: 0 45px;
+
+    }
+
+    .main-title{
+        padding: 0 30px;
+    }
 
     .mains-title,
     h2,
