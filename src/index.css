@@ -16,6 +16,9 @@ body {
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 button,
 a,

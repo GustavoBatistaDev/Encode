@@ -94,7 +94,7 @@ export const Home = () => {
                                             tenha um site responsivo, com <br /> design moderno e amplie sua clientela <br /> na internet!
                                         </p>
 
-                                        <a className='d-flex' href="https://web.whatsapp.com/send?phone=5573981933667">
+                                        <a className='d-flex' href="#contato">
                                             <button className="btn-header2">SAIBA MAIS</button>
                                         </a>
 
@@ -415,7 +415,7 @@ export const Home = () => {
                                 <br />
                             </p>
                         </div>
-                        <div className="form-contato">
+                        <div  className="form-contato">
                             <div className="row d-flex justify-content-center">
                                 <div className="contato col-md-5">
                                     <h3>Envie-nos um e-mail que nós entramos em contato com você!</h3>
@@ -451,7 +451,7 @@ export const Home = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="formulario col-md-5">
+                                <div id='contato' className="formulario col-md-5">
                                     <form action="">
                                         <div className="centralizar mt-3">
                                             <label className="login-label">
