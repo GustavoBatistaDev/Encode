@@ -95,12 +95,10 @@ export const Home = () => {
                                         </a>
 
                                     </div>
-
-                                    <div  ref={ref3} className={`col-md-6  fade-in ${inView3 ? 'show' : ''}`} >
+                                    <div ref={ref3} className={`col-md-6 fade-in ${inView3 ? 'show' : ''}`} >
                                         <img className='main-image' src={monitor} />
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
