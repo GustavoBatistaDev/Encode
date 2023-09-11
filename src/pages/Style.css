@@ -85,6 +85,7 @@
 }
 
 .about {
+    overflow-y: hidden;
     margin: 0px 0;
 }
 
