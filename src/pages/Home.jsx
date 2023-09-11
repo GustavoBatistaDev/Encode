@@ -95,8 +95,8 @@ export const Home = () => {
                                         </a>
 
                                     </div>
-                                    <div   ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`} >
-                                        <img className='main-image' src={monitor} />
+                                    <div  ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`}>
+                                        <img className='main-image'  src={monitor} />
                                     </div>
                                 </div>
                             </div>
