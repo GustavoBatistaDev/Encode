@@ -9,7 +9,7 @@
 }
 
 body {
-
+  overflow-x: hidden;
   background-repeat: no-repeat;
   object-fit: cover;
   background-color: black;
