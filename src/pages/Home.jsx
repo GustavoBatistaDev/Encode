@@ -76,6 +76,7 @@ export const Home = () => {
                             </div>
                         </div>
                     </nav>
+                   
                     {/* Links nav */}
                     {/* Seção header */}
                     <div id="main" className="section main-section">
@@ -165,7 +166,7 @@ export const Home = () => {
                     <section ref={ref4} className={`fade-in ${inView4 ? 'show' : ''}`}>
                         <div className="container my-5">
                             <div className={` text-center `}>
-                                <h1 style={{fontWeight: 'bold'}} className="p-section1 pt-5 mt-5">
+                                <h1 style={{fontWeight: 'bold'}} className="p-section1 pt-5 ">
                                     <br />
                                     Transforme visitantes em clientes, e 
                                     <span className='gradient'>
