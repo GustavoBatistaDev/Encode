@@ -201,7 +201,7 @@ export const Home = () => {
                         <div>
                             <div className={`row d-flex justify-content-center `} >
                                 <div className="col-lg-6">
-                                    <h2 className='text-white my-5'>Sobre Nós</h2>
+                                    <h2 className='text-white mt-5'>Sobre Nós</h2>
                                     <div className="box-tec">
 
                                         <h1 className='mb-5 reduce about-title mains-title'>
