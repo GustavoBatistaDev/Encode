@@ -90,7 +90,7 @@ export const Home = () => {
                                             Transforme sua presença online em um sucesso!
                                         </h1>
                                         <p className='main-parag'>
-                                            tenha um site responsivo, com design moderno e amplie sua clientela na internet!
+                                            tenha um site responsivo, com <br /> design moderno e amplie sua clientela <br /> na internet!
                                         </p>
 
                                         <a className='d-flex' href="https://web.whatsapp.com/send?phone=5573981933667">
@@ -237,7 +237,7 @@ export const Home = () => {
 
 
 
-                <section style={{ overflowY: 'hidden' }} className="my-5 about-services" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <section  className="my-5 about-services" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', overflowY: 'hidden' }}>
 
                     <section ref={ref10} className={`section1 fade-in mb-5 ${inView10 ? 'show' : ''}`}>
                         <h1 style={{ fontSize: '50px' }} className="text-white text-center mains-title">Conheça os nossos <span className='method'>Serviços</span></h1>
