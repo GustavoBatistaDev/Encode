@@ -876,7 +876,7 @@ input:focus {
     .mains-title,
     h2,
     p {
- 
+
         text-align: center;
     }
 
@@ -888,7 +888,7 @@ input:focus {
         font-size: 35px !important;
     }
 
-    .texto-header{
+    .texto-header {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -931,6 +931,9 @@ input:focus {
     }
 
 
+    .description-images {
+        height: 210px;
+    }
 
     .mains-title,
     h2,
@@ -985,16 +988,17 @@ input:focus {
         margin: 0 auto;
     }
 
-    .description{
+
+    .description {
         margin-top: 1px;
     }
 
 
-    .about-services{
+    .about-services {
         margin-top: -80px !important;
     }
 
-    .about{
+    .about {
         margin-top: 220px !important;
     }
 
@@ -1010,12 +1014,12 @@ input:focus {
         margin: 0 auto;
     }
 
-    .main-parag{
+    .main-parag {
         padding: 0 45px;
 
     }
 
-    .main-title{
+    .main-title {
         padding: 0 30px;
     }
 
@@ -1040,9 +1044,7 @@ input:focus {
     }
 
 
-    .description-images {
-        height: 210px;
-    }
+
 
     .btn-header2,
     .btn-card {
@@ -1062,5 +1064,9 @@ input:focus {
 
     .about {
         margin: 200px 0;
+    }
+
+    .description-images {
+        height: 170px !important;
     }
 }
