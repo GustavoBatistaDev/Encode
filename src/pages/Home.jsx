@@ -24,7 +24,6 @@ export const Home = () => {
     const [ref4, inView4] = useInView();
     const [ref5, inView5] = useInView();
     const [ref6, inView6] = useInView();
-    const [ref8, inView8] = useInView();
     const [ref9, inView9] = useInView();
     const [ref10, inView10] = useInView();
     const [ref11, inView11] = useInView();
@@ -181,8 +180,8 @@ export const Home = () => {
                     <section className="describe">
                         <div className="container">
                             <div>
-                                <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
-                                    <div className="col-lg-6">
+                                <div  ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
+                                    <div className="col-lg-6" >
                                         <h1 className="text-white title-2 mains-title">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
                                         <div className="box-tec">
 

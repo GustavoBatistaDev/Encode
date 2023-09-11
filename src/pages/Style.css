@@ -296,7 +296,7 @@
 
 
 .description {
-    margin-top: -200px;
+   
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -322,7 +322,7 @@
 /* section 1 */
 
 .section {
-    height: 75vh;
+    
 
     padding-bottom: 200px;
     padding-top: 50px;
@@ -866,9 +866,6 @@ input:focus {
         margin-top: 250px;
     }
 
-    .describe {
-        padding-bottom: 90px;
-    }
 
     .main-container-image-description {
         padding-top: 50px;
