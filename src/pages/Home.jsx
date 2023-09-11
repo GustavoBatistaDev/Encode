@@ -133,7 +133,7 @@ export const Home = () => {
                     
 
 
-                    <section className="mt-5 how">
+                    <section className="how">
                         <div className="container">
                             <div>
                                 <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
