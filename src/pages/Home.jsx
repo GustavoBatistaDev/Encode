@@ -146,7 +146,7 @@ export const Home = () => {
                                                 Um site moderno e otimizado é essencial para empresas. Com velocidade de carregamento elevada, site responsivo e uma ótima experiência do usuário, a empresa atrai e retém clientes. Além disso, a otimização no Google melhora a visibilidade nos resultados de pesquisa, impulsionando o crescimento e o sucesso do negócio.
                                             </p>
                                             <a className='d-flex' href="#services">
-                                                <button className="btn-header2">ver todos os serviços</button>
+                                                <button className="btn-header2 up">ver todos os serviços</button>
                                             </a>
                                         </div>
                                     </div>
@@ -200,21 +200,21 @@ export const Home = () => {
                     <div className="container">
                         <div>
                             <div className={`row d-flex justify-content-center `} >
-                                <div className="col-lg-6">
-                                    <h2 className='text-white mt-5'>Sobre Nós</h2>
+                                <div className="col-lg-6 container-text-about">
+                                    <h2 className='text-white mt-5 about-title'>Sobre Nós</h2>
                                     <div className="box-tec">
 
-                                        <h1 className='mb-5 reduce about-title mains-title'>
+                                        <h1 className='mb-5 reduce mains-title'>
                                             Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
-                                        <p className='reduce'>Nosso objetivo é fornecer a você uma <br /> página online que prende o seu visitante com <br /> uma copy persuasiva e utilizar as melhores <br />práticas de UI/UX para criar a experiência<br /> mais satisfatória para o usuário em seu site!</p>
+                                        <p className='reduce about-parag'>Nosso objetivo é fornecer a você uma <br /> página online que prende o seu visitante com <br /> uma copy persuasiva e utilizar as melhores <br />práticas de UI/UX para criar a experiência<br /> mais satisfatória para o usuário em seu site!</p>
 
                                     </div>
                                 </div>
                                 <div className="my-5 col-lg-6 d-block ">
 
                                     <div id='main-2' className="container-image-2 d-flex">
-                                        <img id='two-image' className='main-image' src={boy} />
+                                        <img id='two-image' className='main-image mt-5' src={boy} />
                                     </div>
 
                                 </div>
@@ -241,7 +241,7 @@ export const Home = () => {
                 <section  className="my-5 about-services" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', overflowY: 'hidden' }}>
 
                     <section ref={ref10} className={`section1 fade-in mb-5 ${inView10 ? 'show' : ''}`}>
-                        <h1 style={{ fontSize: '50px' }} className="text-white text-center mains-title">Conheça os nossos <span className='method'>Serviços</span></h1>
+                        <h1 style={{ fontSize: '50px', fontWeight: 'bold' }} className="text-white text-center mains-title">Conheça os nossos <span className='method'>Serviços</span></h1>
                         <h3 className='text-center text-white mains-sub-title'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
                     </section>
                     <section id='services'  ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>

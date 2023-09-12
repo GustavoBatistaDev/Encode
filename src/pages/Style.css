@@ -30,6 +30,16 @@
     z-index: 1000;
 }
 
+.about-title {
+    font-size: 22px;
+    margin-bottom: -2px;
+    font-weight: 200 !important;
+}
+
+.about-parag {
+    margin-top: -40px;
+}
+
 .icons i {
     color: #fff;
     font-size: 1.5em;
@@ -56,7 +66,7 @@
 /* botao cabecalho */
 
 .btn-header {
-    
+
     text-decoration: none;
     position: relative;
     border: none;
@@ -84,9 +94,12 @@
 
 }
 
-.about {
-    overflow-y: hidden;
-    margin: 0px 0;
+.up {
+    margin-top: -30px;
+}
+
+.container-text-about {
+    margin-top: 135px;
 }
 
 .fixed-network:before {
@@ -297,7 +310,7 @@
 
 
 .description {
-   
+
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -319,7 +332,7 @@
 /* carossel */
 
 
-.main-container-image-description{
+.main-container-image-description {
     margin-top: -50px;
 }
 
@@ -812,7 +825,7 @@ input:focus {
         display: none;
     }
 
-    #main{
+    #main {
         margin-top: -120px !important;
     }
 
@@ -853,10 +866,10 @@ input:focus {
 
     }
 
-    .main-container-image-description{
+    .main-container-image-description {
         margin-top: 20px;
     }
-  
+
 
 
     .mains-title,
@@ -914,7 +927,7 @@ input:focus {
         margin: 0 auto;
     }
 
-  
+
     .description-images {
         height: 210px;
     }
@@ -975,7 +988,7 @@ input:focus {
         margin-top: 1px;
     }
 
-    #two-image{
+    #two-image {
         margin-left: 20px;
     }
 
@@ -984,7 +997,7 @@ input:focus {
         margin-top: -80px !important;
     }
 
-    .about{
+    .about {
         margin-bottom: 130px;
     }
 
@@ -1000,7 +1013,7 @@ input:focus {
         margin: 0 auto;
     }
 
-    .part-1{
+    .part-1 {
         margin-bottom: 100px;
     }
 
@@ -1056,34 +1069,38 @@ input:focus {
         height: 170px !important;
     }
 
-    #main{
+    #main {
         margin-top: -150px;
     }
 }
 
-.second-section{
+.second-section {
     padding: 50px 0;
 }
 
-.how{
-    padding-top: 100px;
+.how {
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 
-.about-services{
+.about-services {
     height: 100%;
 }
 
-.loader{
+.loader {
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
-.container-loader{
+.container-loader {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Define a altura do contêiner para preencher toda a altura da janela */
-  }
-  
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Define a altura do contêiner para preencher toda a altura da janela */
+}
+
