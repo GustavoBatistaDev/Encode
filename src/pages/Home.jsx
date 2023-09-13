@@ -28,8 +28,8 @@ export const Home = () => {
     const [ref10, inView10] = useInView();
     const [ref11, inView11] = useInView();
 
- 
-    
+
+
     return (
         <>
             <>
@@ -120,19 +120,7 @@ export const Home = () => {
                         </a>
                     </div>
                 </header>
-             
-
-
-
-
-
-
-
-
                 <section className=''>
-                    
-
-
                     <section className="how">
                         <div className="container">
                             <div>
@@ -174,28 +162,7 @@ export const Home = () => {
                         </div>
                     </section>
                 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <section ref={ref6} className={`effect about fade-in ${inView6 ? 'show' : ''}`} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-
                     <div className="container">
                         <div>
                             <div className={`row d-flex justify-content-center `} >
@@ -221,29 +188,12 @@ export const Home = () => {
                         </div>
                     </div>
                 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <section  className="my-5 about-services" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', overflowY: 'hidden' }}>
-
+                <section className="my-5 about-services" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', overflowY: 'hidden' }}>
                     <section ref={ref10} className={`section1 fade-in mb-5 ${inView10 ? 'show' : ''}`}>
                         <h1 style={{ fontSize: '50px', fontWeight: 'bold' }} className="text-white text-center mains-title">Conheça os nossos <span className='method'>Serviços</span></h1>
                         <h3 className='text-center text-white mains-sub-title'>Escolha a opção que mais se adequa com seu negócio e entre em contato conosco!</h3>
                     </section>
-                    <section id='services'  ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
+                    <section id='services' ref={ref11} className={`section1 fade-in ${inView11 ? 'show' : ''}`}>
                         <div className="container-fluid">
                             <div className="row justify-content-center">
                                 <div className="">
@@ -381,30 +331,7 @@ export const Home = () => {
                             </div>
                         </div>
                     </section>
-
-
                 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <section ref={ref9} className={`fade-in ${inView9 ? 'show' : ''}`} >
                     <div className="container">
                         <div className="text-center mb-5">
@@ -414,7 +341,7 @@ export const Home = () => {
                                 <br />
                             </p>
                         </div>
-                        <div  className="form-contato">
+                        <div className="form-contato">
                             <div className="row d-flex justify-content-center">
                                 <div className="contato col-md-5">
                                     <h3>Envie-nos um e-mail que nós entramos em contato com você!</h3>
@@ -479,8 +406,14 @@ export const Home = () => {
                         background: "linear-gradient(to right ,#FF7DB2 ,#3D40F4, #03a9f4)"
                     }}
                 >
-                    <div className="container">
+                    <div className="container pt-3">
                         <div className="text-center">
+                            <div>
+
+                                <span className='text-white pt-2'>CNPJ: 52.155.838/0001/58 </span>
+                            </div>
+
+                            <span className='text-white font-italic'>&copy;Todos os direitos reservados</span>
                             <div>
                                 <img
                                     src={logo2}

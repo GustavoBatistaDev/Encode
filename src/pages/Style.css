@@ -858,24 +858,19 @@ input:focus {
 
 @media (max-width: 991px) and (min-width: 768px) {
 
-
     .main-image {
         padding-left: 17px;
         margin: 0 auto;
         height: 440px;
-
     }
 
     .main-container-image-description {
         margin-top: 20px;
     }
 
-
-
     .mains-title,
     h2,
     p {
-
         text-align: center;
     }
 
@@ -922,7 +917,7 @@ input:focus {
     .main-image {
         position: relative;
         height: 380px;
-        left: 45%;
+        left: 41%;
         transform: translateX(-50%);
         margin: 0 auto;
     }
@@ -1103,4 +1098,3 @@ input:focus {
     height: 100vh;
     /* Define a altura do contêiner para preencher toda a altura da janela */
 }
-
