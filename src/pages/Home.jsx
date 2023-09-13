@@ -22,7 +22,6 @@ export const Home = () => {
 
     const [ref, inView] = useInView();
     const [ref3, inView3] = useInView();
-    const [ref4, inView4] = useInView();
     const [ref5, inView5] = useInView();
     const [ref6, inView6] = useInView();
     const [ref9, inView9] = useInView();

@@ -69,7 +69,7 @@ p {
 }
 
 .effect {
-  height: 100%; /* Altura de 100vh */
+  height: 100vh; /* Altura de 100vh */
   background: linear-gradient(to right, transparent, rgb(40, 42, 160)); /* Gradiente da direita para a esquerda com opacidade */
 }
 
