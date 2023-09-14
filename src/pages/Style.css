@@ -915,16 +915,13 @@ input:focus {
 @media (max-width: 767px) and (min-width: 545px) {
 
     .main-image {
-        position: relative;
-        height: 380px;
-        left: 41%;
-        transform: translateX(-50%);
-        margin: 0 auto;
+
+        margin-left: -71px;
+        height: 440px;
     }
 
-
-    .description-images {
-        height: 210px;
+    .main-container-image-description {
+        margin-top: 20px;
     }
 
     .mains-title,
@@ -941,6 +938,11 @@ input:focus {
         font-size: 35px !important;
     }
 
+    .texto-header {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
     .description-images {
         height: 210px;
@@ -963,6 +965,7 @@ input:focus {
     }
 
 
+
 }
 
 
@@ -973,7 +976,7 @@ input:focus {
     .main-image {
         position: relative;
         height: 280px !important;
-        left: 46% !important;
+        left: 213px !important;
         transform: translateX(-50%);
         margin: 0 auto;
     }

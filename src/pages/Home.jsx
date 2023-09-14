@@ -81,7 +81,7 @@ export const Home = () => {
 
                     {/* Links nav */}
                     {/* Seção header */}
-                    <div id="main" className="section main-section">
+                    <div style={{border: '1px solid red'}} id="main" className="section main-section">
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                                 <div className="row">
@@ -284,10 +284,10 @@ export const Home = () => {
                                     <div className="card-service" >
                                         <div className="container-header">
                                             <h2>Site</h2>
-                                            <h1 style={{ zIndex: '1000' }} className='services-title mains-title'>Landing Pages</h1>
+                                            <h1 className='services-title mains-title'>Landing Pages</h1>
                                         </div>
                                         <div style={{ marginTop: '-40px' }} className="container-img-card">
-                                            <img style={{ zIndex: '-1' }} src={bag} alt="" />
+                                            <img src={bag} alt="" />
                                         </div>
                                         <div className="services-content">
                                             <ul>
