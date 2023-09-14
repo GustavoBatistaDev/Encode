@@ -16,7 +16,10 @@ import bag from '../assets/Groupbag.svg';
 
 import { useInView } from 'react-intersection-observer';
 
+import { Divide as Hamburguer } from 'hamburger-react';
+
 import './Style.css';
+import { useState } from 'react';
 
 export const Home = () => {
 
@@ -28,7 +31,11 @@ export const Home = () => {
     const [ref10, inView10] = useInView();
     const [ref11, inView11] = useInView();
 
+    const [isOpen, setIsOpen] = useState(false);
 
+    const handleMenuMobile = () => {
+        setIsOpen(!isOpen);
+    };
 
     return (
         <>
@@ -75,13 +82,35 @@ export const Home = () => {
                                         <button className="btn-header">Fale Conosco</button>
                                     </a>
                                 </ul>
+                                <Hamburguer onToggle={handleMenuMobile} size="26" color='#FFFFFF' />
+                                <ul className={`menu-mobile ${isOpen ? "open" : "close"}`}>
+
+
+                                    <li>
+                                        <i className="fa-brands fa-linkedin-in mr-2" />
+                                        <a className='text-white text-center' href="">Linkedin</a>
+                                    </li>
+                                    <li>
+                                        <i className="fa-brands fa-instagram mr-2" />
+                                        <a className='text-white text-center' href="">Instagram</a>
+                                    </li>
+                                    <li>
+                                        <i className="fa-brands fa-whatsapp mr-2" />
+                                        <a className='text-white text-center' href="">WhatsApp</a>
+                                    </li>
+                                    <li>
+                                        <i className="fa-brands fa-behance mr-2" />
+                                        <a className='text-white text-center' href="">Instagram</a>
+                                    </li>
+                                </ul>
+
                             </div>
                         </div>
                     </nav>
 
                     {/* Links nav */}
                     {/* Seção header */}
-                    <div  id="main" className="section main-section">
+                    <div id="main" className="section main-section">
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                                 <div className="row">

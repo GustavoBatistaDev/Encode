@@ -94,6 +94,12 @@
 
 }
 
+.hamburger-react {
+    display: none !important;
+ 
+ }
+ 
+
 .up {
     margin-top: -30px;
 }
@@ -244,6 +250,8 @@
     }
 }
 
+
+
 .btn-header2:before {
     content: '';
     position: absolute;
@@ -287,7 +295,75 @@
 
 /* botao cabecalho */
 
+.fa-xmark {
+    z-index: 100 !important;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
 
+.hamburger-react {
+    position: fixed !important;
+    top: 2px !important;
+    right: 6px !important;
+    z-index: 2002 !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-mobile {
+    height: 100%;
+    width: 55%;
+
+    background: rgba(40, 42, 160, 0.829);
+    z-index: 100;
+    top: 0;
+    right: -55%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:  0.3s ease-in-out;
+}
+
+.menu-mobile li {
+    margin: 10px 0;
+    padding: 7px 0px ;
+    text-align: center;
+    width: 179px !important;
+    background: rgba(26, 28, 107, 0.829);
+}
+
+
+
+
+.menu-mobile.open {
+    animation: slideInRight .6s ease-in-out forwards;
+    right: 0;
+}
+
+.menu-mobile.close {
+    animation: slideOutRight .6s ease-in-out forwards;
+    
+    right: -55%;
+  }
 
 #main {
     display: flex;
@@ -295,6 +371,43 @@
     justify-content: center;
     padding-bottom: 220px;
 }
+
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Define a animação para fechar o menu */
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* carossel */
 
@@ -306,7 +419,6 @@
     font-weight: 600;
     font-size: 1.2em;
 }
-
 
 
 .description {
@@ -716,7 +828,11 @@ input:focus {
         display: none;
     }
 
-
+    .hamburger-react {
+        display: none !important;
+     
+     }
+     
 
     .btn-submit {
         width: 11.4em !important;
@@ -817,6 +933,11 @@ input:focus {
         width: 15.4em;
     }
 
+    .hamburger-react {
+        display: none !important;
+     
+     }
+     
     #carouselExampleControls {
         display: block;
     }
@@ -847,7 +968,6 @@ input:focus {
 
 
 
-
 }
 
 
@@ -863,6 +983,16 @@ input:focus {
         margin: 0 auto;
         height: 440px;
     }
+    .hamburger-react {
+       display: none !important;
+    
+    }
+    
+    .hamburger-react {
+        display: none !important;
+     
+     }
+     
 
     .main-container-image-description {
         margin-top: 20px;
@@ -914,6 +1044,7 @@ input:focus {
 
 @media (max-width: 767px) and (min-width: 545px) {
 
+
     .main-image {
 
         margin-left: -71px;
@@ -923,6 +1054,16 @@ input:focus {
     .main-container-image-description {
         margin-top: 20px;
     }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .hamburger-react {
+        display: none !important;
+     
+     }
+     
 
     .mains-title,
     h2,
@@ -972,6 +1113,11 @@ input:focus {
 
 @media (max-width: 545px) {
 
+    .hamburger-react {
+        display: block !important;
+     
+     }
+     
 
     .main-image {
         position: relative;
