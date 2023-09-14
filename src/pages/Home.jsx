@@ -81,7 +81,7 @@ export const Home = () => {
 
                     {/* Links nav */}
                     {/* Seção header */}
-                    <div style={{border: '1px solid red'}} id="main" className="section main-section">
+                    <div  id="main" className="section main-section">
                         <div className='mt-5'>
                             <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                                 <div className="row">
