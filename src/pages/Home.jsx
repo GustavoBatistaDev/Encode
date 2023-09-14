@@ -264,7 +264,7 @@ export const Home = () => {
                                             </ul>
 
                                         </div>
-                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento!">
+                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20um%20site%20institucional!">
                                             <button style={{ marginTop: '40px' }} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
@@ -304,7 +304,7 @@ export const Home = () => {
 
 
                                         </div>
-                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento!">
+                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20um%20site%20de%20vendas!">
                                             <button style={{ marginTop: '55px' }} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
@@ -352,7 +352,7 @@ export const Home = () => {
 
 
                                         </div>
-                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento!">
+                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20uma%20landing%20page!">
                                             <button className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
