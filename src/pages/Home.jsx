@@ -320,37 +320,37 @@ export const Home = () => {
                                         </div>
                                         <div className="services-content">
                                             <ul>
-                                                <li className='my-3  text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    <span className='item-card'> &nbsp;Responsivo-Celular, PC & Tablet;</span>
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    <span className='item-card'> &nbsp;Integração com WhatsApp;</span>
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    <span className='item-card'> &nbsp;Up nas vendas com UpSeils;</span>
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    <span className='item-card'> &nbsp;Down sells e cross sells;</span>
-                                                </li>
-                                                <li className='my-3 text-left '>
-                                                    <img src={arrow} alt="" />
-                                                    <span className='item-card'> &nbsp;Design 3D/Animações;</span>
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    <span className='item-card'> &nbsp;Melhores práticas de SEO;</span>
-                                                </li>
-                                                <li className='my-3 text-left'>
-                                                    <img src={arrow} alt="" />
-                                                    &nbsp;Carregamento rápido;
-                                                </li>
+                                                <div className='container-menu-mobile'>
+                                                    <li className='my-3  text-left'>
+                                                        <img src={arrow} alt="" />
+                                                        <span className='item-card'> &nbsp;Responsivo-Celular, PC & Tablet;</span>
+                                                    </li>
+                                                    <li className='my-3 text-left'>
+                                                        <img src={arrow} alt="" />
+                                                        <span className='item-card'> &nbsp;Integração com WhatsApp;</span>
+                                                    </li>
+                                                    <li className='my-3 text-left'>
+                                                        <img src={arrow} alt="" />
+                                                        <span className='item-card'> &nbsp;Up nas vendas com UpSeils;</span>
+                                                    </li>
+                                                    <li className='my-3 text-left'>
+                                                        <img src={arrow} alt="" />
+                                                        <span className='item-card'> &nbsp;Down sells e cross sells;</span>
+                                                    </li>
+                                                    <li className='my-3 text-left '>
+                                                        <img src={arrow} alt="" />
+                                                        <span className='item-card'> &nbsp;Design 3D/Animações;</span>
+                                                    </li>
+                                                    <li className='my-3 text-left'>
+                                                        <img src={arrow} alt="" />
+                                                        <span className='item-card'> &nbsp;Melhores práticas de SEO;</span>
+                                                    </li>
+                                                    <li className='my-3 text-left'>
+                                                        <img src={arrow} alt="" />
+                                                        &nbsp;Carregamento rápido;
+                                                    </li>
+                                                </div>
                                             </ul>
-
-
                                         </div>
                                         <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20uma%20landing%20page!">
                                             <button className="btn-card">Quero meu site</button>

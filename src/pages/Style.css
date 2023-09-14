@@ -326,7 +326,6 @@
 
 
 
-
 .menu-mobile {
     height: 100%;
     width: 55%;
@@ -344,7 +343,7 @@
 }
 
 .menu-mobile li {
-    margin: 10px 0;
+    margin-top: 20px;
     padding: 7px 0px;
     text-align: center;
     width: 179px !important;
