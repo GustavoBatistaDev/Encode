@@ -96,7 +96,7 @@ export const Home = () => {
                                     </li>
                                     <li>
                                         <i className="fa-brands fa-whatsapp mr-2" />
-                                        <a className='text-white text-center' href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento">WhatsApp</a>
+                                        <a className='text-white text-center' href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento!">WhatsApp</a>
                                     </li>
                                     <li>
                                         <i className="fa-brands fa-behance mr-2" />
@@ -141,7 +141,7 @@ export const Home = () => {
                         <a href="#" className='d-block text-white'>
                             <i className="fa-brands fa-instagram" />
                         </a>
-                        <a href="https://web.whatsapp.com/send?phone=5573981933667" className='d-block text-white'>
+                        <a className='d-block text-white'>
                             <i className="fa-brands fa-whatsapp" />
                         </a>
                         <a href="#" className='d-block text-white'>
@@ -264,7 +264,7 @@ export const Home = () => {
                                             </ul>
 
                                         </div>
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento!">
                                             <button style={{ marginTop: '40px' }} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
@@ -304,7 +304,7 @@ export const Home = () => {
 
 
                                         </div>
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento!">
                                             <button style={{ marginTop: '55px' }} className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
@@ -352,7 +352,7 @@ export const Home = () => {
 
 
                                         </div>
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                        <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento!">
                                             <button className="btn-card">Quero meu site</button>
                                         </a>
                                     </div>
