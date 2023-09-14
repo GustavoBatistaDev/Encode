@@ -96,7 +96,7 @@ export const Home = () => {
                                     </li>
                                     <li>
                                         <i className="fa-brands fa-whatsapp mr-2" />
-                                        <a className='text-white text-center' href="">WhatsApp</a>
+                                        <a className='text-white text-center' href="https://wa.me/5573981241191">WhatsApp</a>
                                     </li>
                                     <li>
                                         <i className="fa-brands fa-behance mr-2" />
