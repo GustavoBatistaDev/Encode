@@ -67,7 +67,7 @@ export const Home = () => {
                                         <a href="#">
                                             <i className="fa-brands fa-instagram" />
                                         </a>
-                                        <a href="https://web.whatsapp.com/send?phone=5573981933667">
+                                        <a href="https://wa.me/5573981241191">
                                             <i className="fa-brands fa-whatsapp" />
                                         </a>
                                         <a href="#">
