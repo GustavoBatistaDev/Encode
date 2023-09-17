@@ -199,10 +199,10 @@ export const Home = () => {
                                     <h2 className='text-white about-title'>Sobre Nós</h2>
                                     <div className="box-tec">
 
-                                        <h1 className='mb-5 reduce mains-title'>
+                                        <h1 className='reduce mains-title'>
                                             Usamos nossa <span className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
-                                        <p className='reduce about-parag'>Nosso objetivo é fornecer a você uma <br /> página online que prende o seu visitante com <br /> uma copy persuasiva e utilizar as melhores <br />práticas de UI/UX para criar a experiência<br /> mais satisfatória para o usuário em seu site!</p>
+                                        <p className=' about-parag mt-2'>Nosso objetivo é fornecer a você uma <br /> página online que prende o seu visitante com <br /> uma copy persuasiva e utilizar as melhores <br />práticas de UI/UX para criar a experiência<br /> mais satisfatória para o usuário em seu site!</p>
 
                                     </div>
                                 </div>

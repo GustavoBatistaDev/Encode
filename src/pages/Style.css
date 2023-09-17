@@ -593,10 +593,6 @@
     margin: 0 10px;
 }
 
-#two-image{
-   
-    height: 500px;
-}
 
 .container-images {
     display: flex;
@@ -891,19 +887,9 @@ input:focus {
         margin-left: -120px;
     }
 
-    #main-2 {
-
-        position: relative;
-        left: 30px;
-
-    }
-
-    #main-2 img {
-        margin-top: 30px;
-        height: 350px;
 
 
-    }
+
 
     .mains-title {
         font-size: 35px !important;
@@ -932,9 +918,7 @@ input:focus {
         width: 100%;
     }
 
-    #two-image{
-        margin-top: 140px !important;
-    }
+
 
 
 }
@@ -976,20 +960,12 @@ input:focus {
         margin-left: -160px;
     }
 
-    #main-2 {
-        position: relative;
-        left: 30px !important;
-    }
 
     .reduce{
         width: 80%;
     }
 
-    #two-image{
-        border: 1px solid red;
-        height: 420px;
-        margin-left: -85px;
-    }
+
 
 
 }
@@ -1072,30 +1048,29 @@ input:focus {
 
 @media (max-width: 767px) and (min-width: 545px) {
 
-
     .main-image {
-
-        margin-left: -71px;
+        padding-left: 17px;
+        margin: 0 auto;
         height: 440px;
-    }
-
-    .main-container-image-description {
-        margin-top: 20px;
-    }
-
-    .navbar-nav {
-        display: none;
     }
 
     .hamburger-react {
         display: none !important;
+
+    }
+
+    .hamburger-react {
+        display: none !important;
+
     }
 
     .method{
         font-size: 33px;
     }
 
-
+    .main-container-image-description {
+        margin-top: 20px;
+    }
 
     .mains-title,
     h2,
@@ -1134,8 +1109,9 @@ input:focus {
     }
 
     .reduce {
-        width: 100%;
+        width: 90% !important;
     }
+
 
 
 
@@ -1143,7 +1119,7 @@ input:focus {
 
 
 
-@media (max-width: 545px) {
+@media (max-width: 544px) {
 
     .hamburger-react {
         display: block !important;
@@ -1168,10 +1144,6 @@ input:focus {
         margin-top: 1px;
     }
 
-    #two-image {
-        margin-top: -20px !important;
-        margin-left: -17px;
-    }
 
 
     .about-services {
