@@ -328,9 +328,9 @@
 
 .menu-mobile {
     height: 100%;
-    width: 55%;
+    width: 100%;
 
-    background: rgba(40, 42, 160, 0.829);
+    background: rgba(40, 42, 160, 0.945);
     z-index: 100;
     top: 0;
     right: -55%;
