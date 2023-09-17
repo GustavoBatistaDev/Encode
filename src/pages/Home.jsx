@@ -40,7 +40,7 @@ export const Home = () => {
     return (
         <>
             <>
-                <header className="cabecalho effect">
+                <header className="cabecalho effect min-height">
                     <nav className="navbar navbar-expand-md">
                         <div className="container">
                             <a className="navbar-brand" href="index.html">
@@ -196,11 +196,11 @@ export const Home = () => {
                         <div>
                             <div className={`row d-flex justify-content-center `} >
                                 <div className="col-lg-6 container-text-about">
-                                    <h2 className='text-white mt-5 about-title'>Sobre Nós</h2>
+                                    <h2 className='text-white about-title'>Sobre Nós</h2>
                                     <div className="box-tec">
 
                                         <h1 className='mb-5 reduce mains-title'>
-                                            Usamos nossa <span style={{ fontSize: '46px' }} className='method'>criatividade</span> para conquistar nossos clientes
+                                            Usamos nossa <span className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
                                         <p className='reduce about-parag'>Nosso objetivo é fornecer a você uma <br /> página online que prende o seu visitante com <br /> uma copy persuasiva e utilizar as melhores <br />práticas de UI/UX para criar a experiência<br /> mais satisfatória para o usuário em seu site!</p>
 

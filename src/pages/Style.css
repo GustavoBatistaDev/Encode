@@ -443,6 +443,7 @@
 /* carossel */
 
 
+
 .main-container-image-description {
     margin-top: -50px;
 }
@@ -452,6 +453,10 @@
     font-size: 2em;
     letter-spacing: -0.05em;
 
+}
+
+.min-height{
+    height: 100vh !important;
 }
 
 .main-image {
@@ -588,7 +593,10 @@
     margin: 0 10px;
 }
 
-
+#two-image{
+   
+    height: 500px;
+}
 
 .container-images {
     display: flex;
@@ -833,6 +841,7 @@ input:focus {
     }
 
 
+
     .btn-submit {
         width: 11.4em !important;
     }
@@ -863,7 +872,7 @@ input:focus {
     }
 
     .method {
-        font-size: 33px !important;
+        font-size: 33px ;
     }
 
     .work {
@@ -913,11 +922,19 @@ input:focus {
 
     }
 
+    
+
     .texto-carrosel {
         font-size: 16px;
     }
 
+    .reduce{
+        width: 100%;
+    }
 
+    #two-image{
+        margin-top: 140px !important;
+    }
 
 
 }
@@ -964,7 +981,15 @@ input:focus {
         left: 30px !important;
     }
 
+    .reduce{
+        width: 80%;
+    }
 
+    #two-image{
+        border: 1px solid red;
+        height: 420px;
+        margin-left: -85px;
+    }
 
 
 }
@@ -975,7 +1000,7 @@ input:focus {
 
 
 
-@media (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 992px) and (min-width: 768px) {
 
     .main-image {
         padding-left: 17px;
@@ -993,6 +1018,9 @@ input:focus {
 
     }
 
+    .method{
+        font-size: 33px;
+    }
 
     .main-container-image-description {
         margin-top: 20px;
@@ -1035,7 +1063,7 @@ input:focus {
     }
 
     .reduce {
-        width: 100%;
+        width: 90% !important;
     }
 
 
@@ -1062,6 +1090,11 @@ input:focus {
     .hamburger-react {
         display: none !important;
     }
+
+    .method{
+        font-size: 33px;
+    }
+
 
 
     .mains-title,
@@ -1115,6 +1148,10 @@ input:focus {
     .hamburger-react {
         display: block !important;
 
+    }
+
+    .method{
+        font-size: 27px;
     }
 
 
@@ -1207,7 +1244,7 @@ input:focus {
     }
 
     .reduce {
-        width: 100%;
+        width: 100% !important;
     }
 
     .description-images {
