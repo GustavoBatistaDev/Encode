@@ -12,7 +12,7 @@ import boy from '../assets/Groupboy.svg';
 
 import notebook from '../assets/Framenotebook.svg';
 import graphics from '../assets/Groupgraphics.svg';
-import bag from '../assets/Groupbag.svg';
+import bag from '../assets/correct.svg';
 
 import { useInView } from 'react-intersection-observer';
 
@@ -315,7 +315,7 @@ export const Home = () => {
                                             <h2>Site</h2>
                                             <h1 className='services-title mains-title'>Landing Pages</h1>
                                         </div>
-                                        <div style={{ marginTop: '-40px' }} className="container-img-card">
+                                        <div className="container-img-card my-4">
                                             <img src={bag} alt="" />
                                         </div>
                                         <div className="services-content">
@@ -353,7 +353,7 @@ export const Home = () => {
                                             </ul>
                                         </div>
                                         <a href="https://wa.me/5573981241191?text=Oi,%20gostaria%20de%20solicitar%20um%20orçamento%20de%20uma%20landing%20page!">
-                                            <button className="btn-card">Quero meu site</button>
+                                            <button className="btn-card mt-2">Quero meu site</button>
                                         </a>
                                     </div>
                                 </div>
