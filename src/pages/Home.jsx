@@ -44,7 +44,7 @@ export const Home = () => {
         e.preventDefault();
         const nameValue = name.current.value;
         const messageValue = message.current.value;
-        const whatsappURL = `https://wa.me/5573981241191?text=Nome:${encodeURIComponent(nameValue)}%0A%0AMensagem:${encodeURIComponent(messageValue)}`;
+        const whatsappURL = `https://wa.me/5573981241191?text=${encodeURIComponent(nameValue)}%0A%0A${encodeURIComponent(messageValue)}`;
         window.location.href = whatsappURL;
     };
 
