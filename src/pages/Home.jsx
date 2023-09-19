@@ -155,7 +155,7 @@ export const Home = () => {
                             <div>
                                 <div ref={ref5} className={`row d-flex justify-content-center fade-in ${inView5 ? 'show' : ''}`} >
                                     <div className="col-lg-6 part-1" >
-                                        <h1 className="text-white title-2 mains-title">Como <span className='method'>Nós</span><br /> Fazemos?</h1>
+                                        <h1 className="text-white title-2 mains-title">Como <span className='method'>Nós</span> Fazemos?</h1>
                                         <div className="box-tec">
 
                                             <p className='mb-5 reduce' >
@@ -200,7 +200,7 @@ export const Home = () => {
                                         <h1 className='reduce mains-title'>
                                             Usamos nossa <span className='method'>criatividade</span> para conquistar nossos clientes
                                         </h1>
-                                        <p className=' about-parag mt-2'>Nosso objetivo é fornecer a você uma <br /> página online que prende o seu visitante com <br /> uma copy persuasiva e utilizar as melhores <br />práticas de UI/UX para criar a experiência<br /> mais satisfatória para o usuário em seu site!</p>
+                                        <p className='about-parag mt-2'>Nosso objetivo é fornecer a você uma página online que prende o seu visitante com uma copy persuasiva e utilizar as melhores práticas de UI/UX para criar a experiência mais satisfatória para o usuário em seu site!</p>
 
                                     </div>
                                 </div>
