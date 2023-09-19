@@ -459,7 +459,7 @@
     height: 100vh !important;
 }
 
-.main-image {
+.main-image, #two-image {
 
 
     height: 600px;
@@ -881,7 +881,7 @@ input:focus {
         height: 220px;
     }
 
-    .main-image {
+    .main-image, #two-image {
         height: 440px;
         margin-top: -35px;
         margin-left: -120px;
@@ -961,11 +961,18 @@ input:focus {
         margin-left: -160px;
     }
 
+    #two-image{
+        height: 500px;
+        margin-top: 0px;
+        margin-left: -100px;
+    }
+
 
     .reduce{
         width: 80%;
     }
 
+    
 
 
 
@@ -979,16 +986,7 @@ input:focus {
 
 @media (max-width: 992px) and (min-width: 768px) {
 
-    .about-parag {
-        width: 100%;
-        margin-top: -40px;
-    }
-    .main-image {
-        padding-left: 17px;
-        margin: 0 auto;
-        height: 440px;
-    }
-
+   
     .hamburger-react {
         display: none !important;
 
@@ -1046,6 +1044,28 @@ input:focus {
     .reduce {
         width: 90% !important;
     }
+
+    .main-image {
+        height: 550px;
+        margin-top: 0px;
+        margin-left: -160px;
+    }
+
+    #two-image{
+        height: 400px;
+        margin: 0 auto;
+        
+    }
+
+    .about-parag{
+        width: 100%;
+    }
+
+    .reduce{
+        width: 100% !important;
+    }
+
+    
 
 
 
@@ -1121,6 +1141,14 @@ input:focus {
     }
 
 
+    #two-image{
+        height: 350px;
+        margin: 0 auto;
+        
+    }
+
+
+
 
 
 
@@ -1129,11 +1157,15 @@ input:focus {
 
 
 @media (max-width: 544px) {
-    #two-image{
-       
-      
 
+    #two-image{
+        height: 250px;
+        margin: 0 auto;
+        padding-left: 10px;
+        
     }
+
+
     .about-parag {
         width: 100%;
         margin-top: -40px;

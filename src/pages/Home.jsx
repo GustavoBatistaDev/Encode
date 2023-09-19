@@ -207,7 +207,7 @@ export const Home = () => {
                                 <div className="my-5 col-lg-6 d-block ">
 
                                     <div id='main-2' className="container-image-2 d-flex">
-                                        <img id='two-image' className='main-image mt-5' src={boy} />
+                                        <img id='two-image' className='mt-5' src={boy} />
                                     </div>
 
                                 </div>
