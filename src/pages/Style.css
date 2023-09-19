@@ -1114,7 +1114,7 @@ input:focus {
     }
 
     .reduce {
-        width: 90% !important;
+        width: 100% !important;
     }
     .navbar-nav {
         display: none;
