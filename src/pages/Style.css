@@ -330,7 +330,7 @@
     height: 100%;
     width: 100%;
 
-    background: rgba(40, 42, 160, 0.945);
+    background: rgba(40, 42, 160, 0.829);
     z-index: 100;
     top: 0;
     right: -55%;
@@ -360,8 +360,7 @@
 
 .menu-mobile.close {
     animation: slideOutRight .6s ease-in-out forwards;
-
-    right: -55%;
+    right: -100%;
 }
 
 #main {
@@ -1051,7 +1050,7 @@ input:focus {
     .main-image {
         padding-left: 17px;
         margin: 0 auto;
-        height: 440px;
+        height: 340px;
     }
 
     .hamburger-react {
@@ -1115,6 +1114,7 @@ input:focus {
 
 
 
+
 }
 
 
@@ -1132,11 +1132,10 @@ input:focus {
 
 
     .main-image {
-        position: relative;
-        height: 280px !important;
-        left: 213px !important;
-        transform: translateX(-50%);
+       
+        padding-left: 10px;
         margin: 0 auto;
+        height: 440px;
     }
 
 

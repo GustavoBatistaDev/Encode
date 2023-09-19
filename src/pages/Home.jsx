@@ -47,7 +47,7 @@ export const Home = () => {
                                 {/* Logo */}
                                 <div className="row">
                                     <img
-                                        className='ml-4'
+                                     
                                         src={logo}
                                         alt="icon"
                                         width={60}
@@ -183,9 +183,7 @@ export const Home = () => {
                                                 <img className='mx-2 description-images' src={sky} alt="" />
                                             </div>
                                         </div>
-
                                     </div>
-
                                 </div>
                             </div>
                         </div>
