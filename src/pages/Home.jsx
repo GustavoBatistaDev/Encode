@@ -19,7 +19,7 @@ import { useInView } from 'react-intersection-observer';
 import { Divide as Hamburguer } from 'hamburger-react';
 
 import './Style.css';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 export const Home = () => {
 
@@ -37,6 +37,17 @@ export const Home = () => {
         setIsOpen(!isOpen);
     };
 
+    const name = useRef();
+    const message = useRef();
+
+    const sendMessage = (e) => {
+        e.preventDefault();
+        const nameValue = name.current.value;
+        const messageValue = message.current.value;
+        const whatsappURL = `https://wa.me/5573981241191?text=Nome:${encodeURIComponent(nameValue)}%0A%0AMensagem:${encodeURIComponent(messageValue)}`;
+        window.location.href = whatsappURL;
+    };
+
     return (
         <>
             <>
@@ -47,7 +58,7 @@ export const Home = () => {
                                 {/* Logo */}
                                 <div className="row">
                                     <img
-                                     
+
                                         src={logo}
                                         alt="icon"
                                         width={60}
@@ -362,7 +373,7 @@ export const Home = () => {
                 <section ref={ref9} className={`fade-in ${inView9 ? 'show' : ''}`} >
                     <div className="container">
                         <div className="text-center mb-5">
-                            <img src="media/Logotipo icon 1.png" className="mb-3" alt="" />
+
                             <p className="p-section1 mb-4">
                                 <span className="section1-nome mains-title">Conte-nos a sua necessidade</span>
                                 <br />
@@ -371,7 +382,7 @@ export const Home = () => {
                         <div className="form-contato">
                             <div className="row d-flex justify-content-center">
                                 <div className="contato col-md-5">
-                                    <h3>Envie-nos um e-mail que nós entramos em contato com você!</h3>
+                                    <h3>Envie-nos uma mensagem que nós retornaremos instantaneamente!</h3>
                                     <p>
                                         Caso prefira entre em contato em qualquer rede social da{" "}
                                         <span
@@ -405,17 +416,17 @@ export const Home = () => {
                                     </div>
                                 </div>
                                 <div id='contato' className="formulario col-md-5">
-                                    <form action="">
+                                    <form onSubmit={sendMessage} action="">
                                         <div className="centralizar mt-3">
                                             <label className="login-label">
-                                                <span>Digite seu nome</span>
-                                                <input type="text" name="name" className="input" />
+                                                <input ref={name} placeholder='Digite seu nome...' type="text" name="name" className="input" />
                                             </label>
                                             <label className="login-label">
-                                                <span>Digite um e-mail válido</span>
-                                                <input type="email" name="email" className="input" />
+
+                                                <textarea ref={message} name='message' placeholder='Digite sua mensagem...' id="" className='input' cols="30" rows="4"></textarea>
                                             </label>
                                             <input
+
                                                 type="submit"
                                                 defaultValue="Enviar"
                                                 className="btn-submit"
