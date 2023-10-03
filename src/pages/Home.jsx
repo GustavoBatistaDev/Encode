@@ -95,8 +95,6 @@ export const Home = () => {
                                 </ul>
                                 <Hamburguer onToggle={handleMenuMobile} size="26" color='#FFFFFF' />
                                 <ul className={`menu-mobile ${isOpen ? "open" : "close"}`}>
-
-
                                     <li>
                                         <i className="fa-brands fa-linkedin-in mr-2" />
                                         <a className='text-white text-center' href="">Linkedin</a>
@@ -114,16 +112,14 @@ export const Home = () => {
                                         <a className='text-white text-center' href="">Instagram</a>
                                     </li>
                                 </ul>
-
                             </div>
                         </div>
                     </nav>
-
                     {/* Links nav */}
                     {/* Seção header */}
-                    <div id="main" className="section main-section">
+                    <div  id="main" className="section main-section">
                         <div className='mt-5'>
-                            <div ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
+                            <div   ref={ref} className={`container fade-in ${inView ? 'show' : ''}`}>
                                 <div className="row">
                                     <div className="texto-header col-lg-6">
                                         <h1 className="font-weight-bold mains-title main-title">
@@ -136,9 +132,8 @@ export const Home = () => {
                                         <a className='d-flex' href="#contato">
                                             <button className="btn-header2">SAIBA MAIS</button>
                                         </a>
-
                                     </div>
-                                    <div ref={ref3} className={`container-main-image col-lg-6 fade-in ${inView3 ? 'show' : ''}`}>
+                                    <div  ref={ref3} className={`col-lg-6 fade-in ${inView3 ? 'show' : ''}`}>
                                         <img className='main-image' src={monitor} />
                                     </div>
                                 </div>

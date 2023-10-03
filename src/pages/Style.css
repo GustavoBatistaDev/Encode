@@ -455,11 +455,12 @@
 
 }
 
-.min-height{
+.min-height {
     height: 100vh !important;
 }
 
-.main-image, #two-image {
+.main-image,
+#two-image {
 
 
     height: 600px;
@@ -868,7 +869,7 @@ input:focus {
     }
 
     .method {
-        font-size: 33px ;
+        font-size: 33px;
     }
 
     .work {
@@ -881,7 +882,8 @@ input:focus {
         height: 220px;
     }
 
-    .main-image, #two-image {
+    .main-image,
+    #two-image {
         height: 440px;
         margin-top: -35px;
         margin-left: -120px;
@@ -908,13 +910,13 @@ input:focus {
 
     }
 
-    
+
 
     .texto-carrosel {
         font-size: 16px;
     }
 
-    .reduce{
+    .reduce {
         width: 100%;
     }
 
@@ -961,18 +963,18 @@ input:focus {
         margin-left: -160px;
     }
 
-    #two-image{
+    #two-image {
         height: 500px;
         margin-top: 0px;
         margin-left: -100px;
     }
 
 
-    .reduce{
+    .reduce {
         width: 80%;
     }
 
-    
+
 
 
 
@@ -986,18 +988,18 @@ input:focus {
 
 @media (max-width: 992px) and (min-width: 768px) {
 
-   
-    .hamburger-react {
-        display: none !important;
-
-    }
 
     .hamburger-react {
         display: none !important;
 
     }
 
-    .method{
+    .hamburger-react {
+        display: none !important;
+
+    }
+
+    .method {
         font-size: 33px;
     }
 
@@ -1031,10 +1033,7 @@ input:focus {
 
     .btn-header2,
     .btn-card {
-
-
         height: 2.5em;
-
     }
 
     .texto-carrosel {
@@ -1048,24 +1047,24 @@ input:focus {
     .main-image {
         height: 550px;
         margin-top: 0px;
-        margin-left: -160px;
+        margin-left: -60px;
     }
 
-    #two-image{
+    #two-image {
         height: 400px;
         margin: 0 auto;
-        
+
     }
 
-    .about-parag{
+    .about-parag {
         width: 100%;
     }
 
-    .reduce{
+    .reduce {
         width: 100% !important;
     }
 
-    
+
 
 
 
@@ -1078,7 +1077,7 @@ input:focus {
     }
 
     .main-image {
-        padding-left: 17px;
+        padding-left: 0px;
         margin: 0 auto;
         height: 340px;
     }
@@ -1089,7 +1088,7 @@ input:focus {
     }
 
 
-    .method{
+    .method {
         font-size: 33px;
     }
 
@@ -1136,15 +1135,16 @@ input:focus {
     .reduce {
         width: 100% !important;
     }
+
     .navbar-nav {
         display: none;
     }
 
 
-    #two-image{
+    #two-image {
         height: 350px;
         margin: 0 auto;
-        
+
     }
 
 
@@ -1158,11 +1158,11 @@ input:focus {
 
 @media (max-width: 544px) {
 
-    #two-image{
+    #two-image {
         height: 250px;
         margin: 0 auto;
         padding-left: 10px;
-        
+
     }
 
 
@@ -1176,13 +1176,13 @@ input:focus {
 
     }
 
-    .method{
+    .method {
         font-size: 27px;
     }
 
 
     .main-image {
-       
+
         padding-left: 10px;
         margin: 0 auto;
         height: 440px;
