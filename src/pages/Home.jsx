@@ -88,7 +88,7 @@ export const Home = () => {
                                     <a
                                         target="_blank"
                                         className="ml-auto"
-                                        href="https://web.whatsapp.com/send?phone=5573981933667" rel="noreferrer"
+                                        href="https://wa.me/5573981241191" rel="noreferrer"
                                     >
                                         <button className="btn-header">Fale Conosco</button>
                                     </a>
