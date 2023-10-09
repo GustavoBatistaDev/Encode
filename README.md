@@ -23,3 +23,5 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 3. Instale as dependência com o comando "npm install"
 
 4. Roda a aplicação com o comando "npm run dev".
+###Fotos do projeto
+recent:///9ee37f6336b3a7d21aa916ba652356ce
