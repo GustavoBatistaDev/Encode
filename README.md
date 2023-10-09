@@ -24,6 +24,5 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 
 4. Roda a aplicação com o comando "npm run dev".
 
-<div align="center">
-<img src="recent:///9ee37f6336b3a7d21aa916ba652356ce" width="700px" />
-</div>
+##Imagens
+![image](https://github.com/GustavoBatistaDev/Encode/assets/102866009/cd7b5345-5194-4e98-a3f2-1cdcc00b0135)
