@@ -24,3 +24,6 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em s
 
 4. Roda a aplicação com o comando "npm run dev".
 
+<div align="center">
+<img src="recent:///9ee37f6336b3a7d21aa916ba652356ce" width="700px" />
+</div>
