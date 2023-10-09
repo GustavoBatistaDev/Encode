@@ -2,6 +2,8 @@
 
 Este é o repositório do meu incrível projeto. Abaixo estão as instruções para rodar o projeto localmente em sua máquina.
 
+Esta aplicação é uma landing page dedicada à aquisição de clientes. Nela, apresentamos os serviços de criação de sites oferecidos pela nossa empresa, a Encode. O site é completamente responsivo e inclui um formulário que permite que os clientes entrem em contato facilmente.
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
